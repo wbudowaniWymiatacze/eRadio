@@ -17,7 +17,6 @@ namespace audio
 {
 
 // forward-declare template to be able to specialize only certain types
-// this is to avoid virtual function calls e.g. audioDecoder->Decode()
 template <typename decType>
 class CAudioDecoder;
 
