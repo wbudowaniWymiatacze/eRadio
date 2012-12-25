@@ -7,6 +7,7 @@
 
 #ifndef IAUDIODECODER_HPP
 #define	IAUDIODECODER_HPP
+#include <iostream>
 
 namespace eradio
 {
@@ -21,9 +22,10 @@ namespace audio
 class IAudioDecoder
 {
 public:
-    void Decode() const
+    virtual void Decode() const
     {
-        
+        using namespace std;
+        cout<<"IAudioDecoder::Decode"<<endl;
     }
     
     virtual ~IAudioDecoder()

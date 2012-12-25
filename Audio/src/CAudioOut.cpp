@@ -5,7 +5,8 @@
  * Created on November 7, 2012, 10:31 PM
  */
 
-#include <shared_array.hpp>
+#include <boost/scoped_ptr.hpp>
+#include <boost/shared_array.hpp>
 
 #include <CAudioOut.hpp>
 
@@ -16,7 +17,7 @@ namespace audio
 
 CAudioOut::CAudioOut(IAudioDecoder*                 decoder,
                      CAudioHw*                      audioHw,
-                     ::boostmod::shared_array<u32>  audioBuffer,
+                     ::boost::shared_array<u32>  audioBuffer,
                      u32                            bufLen) :
     m_audioBuffer(audioBuffer, bufLen),
     m_decoder(decoder),
@@ -24,10 +25,15 @@ CAudioOut::CAudioOut(IAudioDecoder*                 decoder,
 {
 }
 
+void CAudioOut::Execute()
+{
+    m_decoder->Decode();
+}
+
 CAudioOut::~CAudioOut()
 {
 }
 
-} // namespace eradio
 } // namespace audio
+} // namespace eradio
 

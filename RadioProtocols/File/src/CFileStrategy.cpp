@@ -8,8 +8,8 @@
 #include <stdio.h>  // for char
 #include <string.h> // for strchr()
 
-#include <shared_array.hpp>
-#include <scoped_ptr.hpp>
+#include <boost/shared_array.hpp>
+#include <boost/scoped_ptr.hpp>
 
 #include <CFileStrategy.hpp>
 #include <CTcpServer.hpp>
@@ -29,10 +29,10 @@ CFileStrategy::CFileStrategy(tcp::CTcpServer& tcpServer,
     // create audio buffer for storing data from Tcp/Ip
     // and reading by audio output object
     const u32 audioBufLen   = AUDIO_BUFFER_SIZE/sizeof(u32);
-    ::boostmod::shared_array<u32> audioBuffer(new u32[audioBufLen]);
-    m_dataRcvr              = ::boostmod::scoped_ptr<CDataReceiver>(new CDataReceiver(tcpServer,
-                                                                                      audioBuffer,
-                                                                                      audioBufLen));
+    ::boost::shared_array<u32> audioBuffer(new u32[audioBufLen]);
+    m_dataRcvr.reset(new CDataReceiver(tcpServer,
+                                       audioBuffer,
+                                       audioBufLen));
     
     // create decoder based on the file extension
     // find last '.' in the string. File extension is after the '.'
@@ -42,10 +42,10 @@ CFileStrategy::CFileStrategy(tcp::CTcpServer& tcpServer,
     audio::IAudioDecoder* audioDecoder  = audio::BuildDecoder(decType);
     audio::CAudioHw* audioHw            = new audio::CAudioHw;
     
-    m_audioOut = ::boostmod::scoped_ptr<audio::CAudioOut>(new audio::CAudioOut(audioDecoder,
-                                                                               audioHw,
-                                                                               audioBuffer,
-                                                                               audioBufLen));
+    m_audioOut.reset(new audio::CAudioOut(audioDecoder,
+                                          audioHw,
+                                          audioBuffer,
+                                          audioBufLen));
     
 }
 
@@ -53,6 +53,7 @@ void CFileStrategy::Play()
 {
     using namespace std;
     
+    m_audioOut->Execute();
     cout<<"playing"<<endl;
 }
 

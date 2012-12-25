@@ -21,7 +21,8 @@ CTcpClient::CTcpClient(const char* hostname,
 
 void CTcpClient::send(u32* buffer, u32 len)
 {
-    
+    (void) buffer;
+    (void) len;
 }
 
 CTcpClient::~CTcpClient() {

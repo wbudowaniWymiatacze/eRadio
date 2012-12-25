@@ -10,6 +10,7 @@
 
 #include <IAudioDecoder.hpp>
 #include <DecoderTypes.hpp>
+#include <iostream>
 
 namespace eradio
 {
@@ -29,10 +30,9 @@ public:
         
     }
     
-    CAudioDecoder(const CAudioDecoder& orig);
     void Decode() const
     {
-        
+        std::cout<<"CAudioDecoder::Decode"<<std::endl;
     }
     
     virtual ~CAudioDecoder()

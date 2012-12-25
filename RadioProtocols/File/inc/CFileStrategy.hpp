@@ -11,7 +11,7 @@
 #include <iostream>
 #include <fstream>
 
-#include <scoped_ptr.hpp>
+#include <boost/scoped_ptr.hpp>
 #include <IRadioStrategy.hpp>
 
 namespace eradio

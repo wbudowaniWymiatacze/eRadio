@@ -18,6 +18,10 @@
                     <type>1</type>
                 </confElem>
                 <confElem>
+                    <name>GTest</name>
+                    <type>1</type>
+                </confElem>
+                <confElem>
                     <name>Release</name>
                     <type>1</type>
                 </confElem>

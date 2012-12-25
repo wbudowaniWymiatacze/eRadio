@@ -10,8 +10,8 @@
 
 #include <gloDefs.hpp>
 
-#include <scoped_ptr.hpp>
-#include <shared_array.hpp>
+#include <boost/scoped_ptr.hpp>
+#include <boost/shared_array.hpp>
 #include <SCircBuffer.hpp>
 #include <IAudioDecoder.hpp>
 #include <CAudioHw.hpp>
@@ -27,14 +27,14 @@ class CAudioOut
 public:
     CAudioOut(IAudioDecoder*                decoder,
               CAudioHw*                     audioHw,
-              ::boostmod::shared_array<u32> audioBuffer,
+              ::boost::shared_array<u32> audioBuffer,
               u32                           bufLen);
     void Execute();
     virtual ~CAudioOut();
 private:
     SCircBuffer<audioBufT>                  m_audioBuffer;
-    ::boostmod::scoped_ptr<IAudioDecoder>   m_decoder;
-    ::boostmod::scoped_ptr<CAudioHw>        m_audioHw;
+    ::boost::scoped_ptr<IAudioDecoder>   m_decoder;
+    ::boost::scoped_ptr<CAudioHw>        m_audioHw;
 };
 
 } // namespace audio

@@ -9,7 +9,6 @@
 #define	GLODEFS_HPP
 
 #include <types.hpp>
-#include <shared_array.hpp>
 
 /*
  * audio buffer size in bytes

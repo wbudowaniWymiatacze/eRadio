@@ -14,6 +14,14 @@ CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/eradio
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux-x86/package
 CND_PACKAGE_NAME_Debug=eradio.tar
 CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/eradio.tar
+# GTest configuration
+CND_PLATFORM_GTest=GNU-Linux-x86
+CND_ARTIFACT_DIR_GTest=dist/GTest/GNU-Linux-x86
+CND_ARTIFACT_NAME_GTest=eradio
+CND_ARTIFACT_PATH_GTest=dist/GTest/GNU-Linux-x86/eradio
+CND_PACKAGE_DIR_GTest=dist/GTest/GNU-Linux-x86/package
+CND_PACKAGE_NAME_GTest=eradio.tar
+CND_PACKAGE_PATH_GTest=dist/GTest/GNU-Linux-x86/package/eradio.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux-x86
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux-x86

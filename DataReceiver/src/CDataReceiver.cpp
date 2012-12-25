@@ -12,7 +12,7 @@ namespace eradio
 {
 
 CDataReceiver::CDataReceiver(tcp::CTcpServer&               tcpServer,
-                             ::boostmod::shared_array<u32>  audioBuffer,
+                             ::boost::shared_array<u32>  audioBuffer,
                              u32                            bufLen) :
     m_dataRcvState(0), //TODO
     m_audioBuffer(audioBuffer, bufLen)
@@ -23,7 +23,10 @@ CDataReceiver::CDataReceiver(tcp::CTcpServer&               tcpServer,
 u32 CDataReceiver::Receive(u32* buffer,
                             u32 len)
 {
+    (void) buffer;
+    (void) len;
     
+    return 0;
 }
 
 CDataReceiver::~CDataReceiver()

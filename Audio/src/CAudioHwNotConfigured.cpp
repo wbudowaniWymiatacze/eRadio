@@ -24,7 +24,8 @@ void CAudioHwNotConfigured::Configure()
 void CAudioHwNotConfigured::Play(u32*  data,
                                  u32   length)
 {
-    
+    (void) data;
+    (void) length;
 }
 
 void CAudioHwNotConfigured::Deconfigure()

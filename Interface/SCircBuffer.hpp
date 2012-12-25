@@ -9,7 +9,7 @@
 #define	SCIRCBUFFER_HPP
 
 #include <gloDefs.hpp>
-#include <shared_array.hpp>
+#include <boost/shared_array.hpp>
 
 namespace eradio
 {
@@ -26,7 +26,7 @@ public:
      * Creates circular buffer and initiates pointers
      * @param len       length of the circular buffer
      */
-    SCircBuffer(::boostmod::shared_array<T> buf,
+    SCircBuffer(::boost::shared_array<T> buf,
                 u32                         len) :
         m_buffer(buf)
     {
@@ -96,7 +96,7 @@ public:
     }
     
 private:
-    ::boostmod::shared_array<T> m_buffer;
+    ::boost::shared_array<T> m_buffer;
     T*                          m_curPointer;
     T*                          m_endPointer;
 };

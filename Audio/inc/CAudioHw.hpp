@@ -31,7 +31,8 @@ public:
     void Play(const u32* const  buffer,
               const u32         length) const
     {
-        
+        (void) buffer;
+        (void) length;
     }
     
     void Deconfigure()

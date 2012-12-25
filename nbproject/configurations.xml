@@ -38,6 +38,11 @@
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="Interface" displayName="Interface" projectFiles="true">
+      <logicalFolder name="boost" displayName="boost" projectFiles="true">
+        <itemPath>Interface/boost/scoped_ptr.hpp</itemPath>
+        <itemPath>Interface/boost/shared_array.hpp</itemPath>
+        <itemPath>Interface/boost/shared_ptr.hpp</itemPath>
+      </logicalFolder>
       <logicalFolder name="globalDefs" displayName="globalDefs" projectFiles="true">
         <itemPath>Interface/globalDefs/gloDefs.hpp</itemPath>
         <itemPath>Interface/globalDefs/types.hpp</itemPath>
@@ -47,23 +52,19 @@
       <itemPath>Interface/shared_array.hpp</itemPath>
       <itemPath>Interface/shared_ptr.hpp</itemPath>
     </logicalFolder>
-    <logicalFolder name="LinuxImpl" displayName="LinuxImpl" projectFiles="true">
-      <logicalFolder name="RadioProtocol"
-                     displayName="RadioProtocol"
-                     projectFiles="true">
-        <logicalFolder name="File" displayName="File" projectFiles="true">
-          <logicalFolder name="inc" displayName="inc" projectFiles="true">
-            <itemPath>LinuxImpl/RadioProtocol/File/inc/CFileStrategy.hpp</itemPath>
-          </logicalFolder>
-          <logicalFolder name="src" displayName="src" projectFiles="true">
-            <itemPath>LinuxImpl/RadioProtocol/File/src/CFileStrategy.cpp</itemPath>
-          </logicalFolder>
-        </logicalFolder>
-      </logicalFolder>
-    </logicalFolder>
     <logicalFolder name="RadioProtocols"
                    displayName="RadioProtocols"
                    projectFiles="true">
+      <logicalFolder name="File" displayName="File" projectFiles="true">
+        <logicalFolder name="inc" displayName="inc" projectFiles="true">
+          <itemPath>RadioProtocols/File/inc/CFileStrategy.hpp</itemPath>
+          <itemPath>RadioProtocols/File/src/COggContainer.cpp</itemPath>
+          <itemPath>RadioProtocols/File/inc/COggContainer.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>RadioProtocols/File/src/CFileStrategy.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <logicalFolder name="inc" displayName="inc" projectFiles="true">
         <itemPath>RadioProtocols/inc/IRadioStrategy.hpp</itemPath>
       </logicalFolder>
@@ -92,6 +93,12 @@
                    displayName="Test Files"
                    projectFiles="false"
                    kind="TEST_LOGICAL_FOLDER">
+      <logicalFolder name="f1"
+                     displayName="SharedArrayTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>UnitTests/Interface/SharedArrayTest.cpp</itemPath>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -120,14 +127,82 @@
             <pElem>Http/inc</pElem>
             <pElem>RadioProtocols/Shoutcast/inc</pElem>
             <pElem>Audio/inc</pElem>
-            <pElem>LinuxImpl/RadioProtocol/File/inc</pElem>
-            <pElem>LinuxImpl/TcpIp/inc</pElem>
             <pElem>DataReceiver/inc</pElem>
             <pElem>Interface</pElem>
+            <pElem>RadioProtocols/File/inc</pElem>
+            <pElem>../../programmingResources/boost_1_48_0/dist/bin/smart_ptrs</pElem>
           </incDir>
           <warningLevel>3</warningLevel>
         </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>ogg</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-Wl,-Map=eRadio.map</commandLine>
+        </linkerTool>
       </compileType>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+    </conf>
+    <conf name="GTest" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>GNU|GNU</compilerSet>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>Interface/globalDefs</pElem>
+            <pElem>TcpIp/inc</pElem>
+            <pElem>RadioProtocols/inc</pElem>
+            <pElem>Http/inc</pElem>
+            <pElem>RadioProtocols/Shoutcast/inc</pElem>
+            <pElem>Audio/inc</pElem>
+            <pElem>DataReceiver/inc</pElem>
+            <pElem>RadioProtocols/File/inc</pElem>
+            <pElem>../../programmingResources/gtest/include</pElem>
+            <pElem>Interface/boost</pElem>
+          </incDir>
+          <warningLevel>3</warningLevel>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>ogg</linkerLibLibItem>
+            <linkerLibFileItem>../../programmingResources/gtest/lib/.libs/libgtest.a</linkerLibFileItem>
+          </linkerLibItems>
+          <commandLine>-Wl,-Map=eRadio.map</commandLine>
+        </linkerTool>
+      </compileType>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
@@ -135,19 +210,51 @@
         <compilerSet>GNU|GNU</compilerSet>
       </toolsSet>
       <compileType>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>Interface/globalDefs</pElem>
+            <pElem>TcpIp/inc</pElem>
+            <pElem>RadioProtocols/inc</pElem>
+            <pElem>Http/inc</pElem>
+            <pElem>RadioProtocols/Shoutcast/inc</pElem>
+            <pElem>Audio/inc</pElem>
+            <pElem>DataReceiver/inc</pElem>
+            <pElem>Interface</pElem>
+            <pElem>RadioProtocols/File/inc</pElem>
+          </incDir>
+          <commandLine>-ffunction-sections -fdata-sections</commandLine>
+          <warningLevel>3</warningLevel>
+        </ccTool>
+        <asmTool>
+          <developmentMode>6</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <stripSymbols>true</stripSymbols>
+          <linkerLibItems>
+            <linkerLibLibItem>ogg</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-Wl,-Map=eRadio.map</commandLine>
+        </linkerTool>
+      </compileType>
+      <folder path="TestFiles/f1">
         <cTool>
-          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
         </cTool>
         <ccTool>
-          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
         </ccTool>
-        <fortranCompilerTool>
-          <developmentMode>5</developmentMode>
-        </fortranCompilerTool>
-        <asmTool>
-          <developmentMode>5</developmentMode>
-        </asmTool>
-      </compileType>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
     </conf>
   </confs>
 </configurationDescriptor>

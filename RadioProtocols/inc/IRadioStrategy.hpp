@@ -9,13 +9,13 @@
 #define	IRADIOSTRATEGY_HPP
 
 #include <gloDefs.hpp>
-#include <scoped_ptr.hpp>
+#include <boost/scoped_ptr.hpp>
 
 #include <CTcpClient.hpp>
 #include <CDataReceiver.hpp>
 #include <CAudioOut.hpp>
 
-using namespace boostmod;
+using namespace boost;
 
 namespace eradio
 {

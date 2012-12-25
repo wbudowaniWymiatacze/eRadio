@@ -15,7 +15,7 @@
 namespace eradio
 {
 
-namespace boostmod
+namespace boost
 {
 template <typename u32> class shared_array;
 }
@@ -31,7 +31,7 @@ class CDataReceiver : public tcp::CTcpClient
 {
 public:
     CDataReceiver(tcp::CTcpServer&              tcpServer,
-                  ::boostmod::shared_array<u32> audioBuffer,
+                  ::boost::shared_array<u32> audioBuffer,
                   u32                           bufLen);
     
     /**

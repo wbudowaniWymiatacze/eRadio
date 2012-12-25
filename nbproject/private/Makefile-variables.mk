@@ -4,4 +4,5 @@
 # NOCDDL
 #
 # Debug configuration
+# GTest configuration
 # Release configuration

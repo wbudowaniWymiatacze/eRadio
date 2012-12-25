@@ -11,10 +11,11 @@
 namespace eradio
 {
 
-typedef unsigned int    u32;
-typedef int             i32;
-typedef unsigned char   u8;
-typedef signed char     i8;
+typedef unsigned int        u32;
+typedef int                 i32;
+typedef long int            i64;
+typedef long unsigned int   u64;
+typedef char                u8;
 
 }
 
