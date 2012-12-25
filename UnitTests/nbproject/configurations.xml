@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="eRadio" displayName="eRadio" projectFiles="true" root="..">
+      <logicalFolder name="Audio" displayName="Audio" projectFiles="true">
+        <logicalFolder name="inc" displayName="inc" projectFiles="true">
+          <itemPath>../Audio/inc/CAudioDecoder.hpp</itemPath>
+          <itemPath>../Audio/inc/CAudioHw.hpp</itemPath>
+          <itemPath>../Audio/inc/CAudioHwNotConfigured.hpp</itemPath>
+          <itemPath>../Audio/inc/CAudioOut.hpp</itemPath>
+          <itemPath>../Audio/inc/DecoderBuilder.hpp</itemPath>
+          <itemPath>../Audio/inc/DecoderTypes.hpp</itemPath>
+          <itemPath>../Audio/inc/IAudioDecoder.hpp</itemPath>
+          <itemPath>../Audio/inc/IAudioHwState.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>../Audio/src/CAudioHw.cpp</itemPath>
+          <itemPath>../Audio/src/CAudioHwNotConfigured.cpp</itemPath>
+          <itemPath>../Audio/src/CAudioOut.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="DataReceiver"
+                     displayName="DataReceiver"
+                     projectFiles="true">
+        <logicalFolder name="inc" displayName="inc" projectFiles="true">
+          <itemPath>../DataReceiver/inc/CDataReceiver.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>../DataReceiver/src/CDataReceiver.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="Http" displayName="Http" projectFiles="true">
+        <logicalFolder name="inc" displayName="inc" projectFiles="true">
+          <itemPath>../Http/inc/CHttpClient.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>../Http/src/CHttpClient.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="RadioProtocols"
+                     displayName="RadioProtocols"
+                     projectFiles="true">
+        <logicalFolder name="File" displayName="File" projectFiles="true">
+          <logicalFolder name="inc" displayName="inc" projectFiles="true">
+            <itemPath>../RadioProtocols/File/inc/CFileStrategy.hpp</itemPath>
+            <itemPath>../RadioProtocols/File/inc/COggContainer.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="src" displayName="src" projectFiles="true">
+            <itemPath>../RadioProtocols/File/src/CFileStrategy.cpp</itemPath>
+            <itemPath>../RadioProtocols/File/src/COggContainer.cpp</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="inc" displayName="inc" projectFiles="true">
+          <itemPath>../RadioProtocols/inc/IRadioStrategy.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Shoutcast" displayName="Shoutcast" projectFiles="true">
+          <logicalFolder name="inc" displayName="inc" projectFiles="true">
+            <itemPath>../RadioProtocols/Shoutcast/inc/CShoutcastStrategy.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="src" displayName="src" projectFiles="true">
+            <itemPath>../RadioProtocols/Shoutcast/src/CShoutcastStrategy.cpp</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="TcpIp" displayName="TcpIp" projectFiles="true">
+        <logicalFolder name="inc" displayName="inc" projectFiles="true">
+          <itemPath>../TcpIp/inc/CTcpClient.hpp</itemPath>
+          <itemPath>../TcpIp/inc/CTcpServer.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>../TcpIp/src/CTcpClient.cpp</itemPath>
+          <itemPath>../TcpIp/src/CTcpServer.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <df name="UnitTests" root=".">
+      <df name="Interface">
+        <in>SharedArrayTest.cpp</in>
+      </df>
+      <df name="objs">
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>GNU|GNU</compilerSet>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>ut.out</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>../DataReceiver/inc</pElem>
+              <pElem>../Http/inc</pElem>
+              <pElem>../RadioProtocols/inc</pElem>
+              <pElem>../TcpIp/inc</pElem>
+              <pElem>../../../programmingResources/gtest/include</pElem>
+              <pElem>../RadioProtocols/File/inc</pElem>
+              <pElem>../Interface</pElem>
+              <pElem>../RadioProtocols/Shoutcast/inc</pElem>
+              <pElem>.</pElem>
+              <pElem>../Audio/inc</pElem>
+              <pElem>../Interface/globalDefs</pElem>
+              <pElem>../Interface/boost</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
