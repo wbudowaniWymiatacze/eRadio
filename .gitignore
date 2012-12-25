@@ -12,6 +12,9 @@
 *.la
 *.a
 
+# intermediate files
+*.d
+
 # build directory
 build
 
