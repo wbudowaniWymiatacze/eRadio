@@ -21,4 +21,10 @@ build
 # output directory
 dist
 
+# output files
+*.out
+
+# Linux save copies files
+*~
+
 
