@@ -65,6 +65,7 @@ TEST_F(SharedArrayTest, Swap)
 {
     TSharedArray arr0(new TArr[g_arrSize]);
     TSharedArray arr1(new TArr[g_arrSize]);
+    TSharedArray arr2(arr1);
     
     TArr* arr0OrigPtr = arr0.get();
     TArr* arr1OrigPtr = arr1.get();
@@ -72,8 +73,10 @@ TEST_F(SharedArrayTest, Swap)
 
     EXPECT_EQ(arr0OrigPtr, arr1.get());
     EXPECT_EQ(arr1OrigPtr, arr0.get());
-    EXPECT_EQ((u32) 1, *arr0.shareRefCounter());
+    EXPECT_EQ(arr1OrigPtr, arr2.get());
+    EXPECT_EQ((u32) 2, *arr0.shareRefCounter());
     EXPECT_EQ((u32) 1, *arr1.shareRefCounter());
+    EXPECT_EQ((u32) 2, *arr2.shareRefCounter());
 }
 
 TEST_F(SharedArrayTest, SamePtrReset)

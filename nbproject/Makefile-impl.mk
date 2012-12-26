@@ -31,7 +31,7 @@ DEFAULTCONF=Debug
 CONF=${DEFAULTCONF}
 
 # All Configurations
-ALLCONFS=Debug GTest Release 
+ALLCONFS=Debug Release 
 
 
 # build
