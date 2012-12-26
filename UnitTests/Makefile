@@ -188,9 +188,9 @@ LIB_DIRS_F = $(patsubst %, -L%, $(LIB_DIRS))
 OUT = $(OUT_DIR_F)$(PROJECT).out
 
 # format final flags for tools, request dependancies for C++, C and asm
-CXX_FLAGS_F = $(CORE_FLAGS) $(OPTIMIZATION) $(CXX_WARNINGS) $(CXX_FLAGS)  $(CXX_DEFS) -MD -MP -MF $(@F:.o=.d) $(INC_DIRS_F)
-C_FLAGS_F = $(CORE_FLAGS) $(OPTIMIZATION) $(C_WARNINGS) $(C_FLAGS) $(C_DEFS) -MD -MP -MF $(@F:.o=.d) $(INC_DIRS_F)
-AS_FLAGS_F = $(CORE_FLAGS) $(AS_FLAGS) $(AS_DEFS) -MD -MP -MF $(@F:.o=.d) $(INC_DIRS_F)
+CXX_FLAGS_F = $(CORE_FLAGS) $(OPTIMIZATION) $(CXX_WARNINGS) $(CXX_FLAGS)  $(CXX_DEFS) $(INC_DIRS_F)
+C_FLAGS_F = $(CORE_FLAGS) $(OPTIMIZATION) $(C_WARNINGS) $(C_FLAGS) $(C_DEFS) $(INC_DIRS_F)
+AS_FLAGS_F = $(CORE_FLAGS) $(AS_FLAGS) $(AS_DEFS) $(INC_DIRS_F)
 LD_FLAGS_F = $(CORE_FLAGS) $(LD_FLAGS) $(LIB_DIRS_F)
 
 #contents of output directory

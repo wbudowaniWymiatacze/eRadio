@@ -52,7 +52,8 @@ TESTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tests
 
 # Test Files
 TESTFILES= \
-	${TESTDIR}/TestFiles/f1
+	${TESTDIR}/TestFiles/f1 \
+	${TESTDIR}/TestFiles/f2
 
 # C Compiler Flags
 CFLAGS=
@@ -142,11 +143,21 @@ ${TESTDIR}/TestFiles/f1: ${TESTDIR}/UnitTests/Interface/SharedArrayTest.o ${OBJE
 	${MKDIR} -p ${TESTDIR}/TestFiles
 	${LINK.cc}   -o ${TESTDIR}/TestFiles/f1 $^ ${LDLIBSOPTIONS} 
 
+${TESTDIR}/TestFiles/f2: ${TESTDIR}/UnitTests/Interface/SharedPtrTest.o ${OBJECTFILES:%.o=%_nomain.o}
+	${MKDIR} -p ${TESTDIR}/TestFiles
+	${LINK.cc}   -o ${TESTDIR}/TestFiles/f2 $^ ${LDLIBSOPTIONS} 
+
 
 ${TESTDIR}/UnitTests/Interface/SharedArrayTest.o: UnitTests/Interface/SharedArrayTest.cpp 
 	${MKDIR} -p ${TESTDIR}/UnitTests/Interface
 	${RM} $@.d
 	$(COMPILE.cc) -g -Werror -I. -I. -IInterface/globalDefs -ITcpIp/inc -IRadioProtocols/inc -IHttp/inc -IRadioProtocols/Shoutcast/inc -IAudio/inc -IDataReceiver/inc -IInterface -IRadioProtocols/File/inc -I../../programmingResources/boost_1_48_0/dist/bin/smart_ptrs -MMD -MP -MF $@.d -o ${TESTDIR}/UnitTests/Interface/SharedArrayTest.o UnitTests/Interface/SharedArrayTest.cpp
+
+
+${TESTDIR}/UnitTests/Interface/SharedPtrTest.o: UnitTests/Interface/SharedPtrTest.cpp 
+	${MKDIR} -p ${TESTDIR}/UnitTests/Interface
+	${RM} $@.d
+	$(COMPILE.cc) -g -Werror -I. -IInterface/globalDefs -ITcpIp/inc -IRadioProtocols/inc -IHttp/inc -IRadioProtocols/Shoutcast/inc -IAudio/inc -IDataReceiver/inc -IInterface -IRadioProtocols/File/inc -I../../programmingResources/boost_1_48_0/dist/bin/smart_ptrs -MMD -MP -MF $@.d -o ${TESTDIR}/UnitTests/Interface/SharedPtrTest.o UnitTests/Interface/SharedPtrTest.cpp
 
 
 ${OBJECTDIR}/Audio/src/CAudioOut_nomain.o: ${OBJECTDIR}/Audio/src/CAudioOut.o Audio/src/CAudioOut.cpp 
@@ -297,6 +308,7 @@ ${OBJECTDIR}/Audio/src/CAudioHwNotConfigured_nomain.o: ${OBJECTDIR}/Audio/src/CA
 	@if [ "${TEST}" = "" ]; \
 	then  \
 	    ${TESTDIR}/TestFiles/f1 || true; \
+	    ${TESTDIR}/TestFiles/f2 || true; \
 	else  \
 	    ./${TEST} || true; \
 	fi

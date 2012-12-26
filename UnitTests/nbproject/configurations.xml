@@ -76,9 +76,11 @@
     <df name="UnitTests" root=".">
       <df name="Interface">
         <in>SharedArrayTest.cpp</in>
+        <in>SharedPtrTest.cpp</in>
       </df>
       <df name="objs">
       </df>
+      <in>main.cpp</in>
     </df>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

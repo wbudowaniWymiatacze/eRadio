@@ -137,8 +137,3 @@ TEST_F(SharedArrayTest, DeleteShared)
     EXPECT_EQ((u32) 1, *m_arr.shareRefCounter());
 }
 
-int main(int argc, char** argv) {
-  testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
-}
-

@@ -9,7 +9,6 @@
 #define	SHARED_ARRAY_HPP
 
 #include <algorithm>
-#include <map>
 
 namespace boost
 {
@@ -31,8 +30,6 @@ public:
     shared_array(shared_array<T>& sharedArrayObj);
     
     shared_array<T>& operator=(shared_array<T>&);
-    
-    shared_array<T>& operator=(T* );
     
     void reset(T* newArr = 0);
     
@@ -90,18 +87,6 @@ shared_array<T>& shared_array<T>::operator=(shared_array<T>& sharedArrayObj)
     
     return *this;
 }
-    
-template<typename T>
-shared_array<T>& shared_array<T>::operator=(T* arr)
-{
-    unwrap();
-    
-    m_arr                   = arr;
-    m_referencesCounter     = new u32;
-    *m_referencesCounter    = 1;
-    
-    return *this;
-}
 
 template<typename T>
 void shared_array<T>::reset(T* newArr)
@@ -120,8 +105,7 @@ void shared_array<T>::reset(T* newArr)
 template<typename T>
 void shared_array<T>::swap(shared_array<T>& newSharedArray)
 {
-    std::swap(*this,
-              newSharedArray);
+    std::swap(*this, newSharedArray);
 }
 
 template<typename T>
