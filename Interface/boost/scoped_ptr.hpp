@@ -18,7 +18,7 @@ class scoped_ptr
 {
 public:
     scoped_ptr(T* obj = 0) :
-        m_obj(obj)
+        m_ptr(obj)
     {
 
     }
@@ -29,40 +29,38 @@ public:
         
     void reset(T* obj = 0)
     {
-        delete m_obj;
-        m_obj = obj;
+        delete m_ptr;
+        m_ptr = obj;
     }
 
     T operator*() const
     {
-        return *m_obj;
+        return *m_ptr;
     }
 
     T* operator->() const
     {
-        return m_obj;
+        return m_ptr;
     }
 
     T* get() const
     {
-        return m_obj;
+        return m_ptr;
     }
 
-    void swap(scoped_ptr<T>& scopedPtrObj)
+    void swap(scoped_ptr<T>& other)
     {
-        scoped_ptr<T>& tmp = *this;
-        std::swap< scoped_ptr<T> >(tmp, scopedPtrObj);
-        *this = tmp;
+        std::swap(*this, other);
     }
     
     ~scoped_ptr()
     {
-        delete m_obj;
-        m_obj = 0;
+        delete m_ptr;
+        m_ptr = 0;
     }
         
 private:
-    T* m_obj;
+    T* m_ptr;
 };
 
 } // namespace boostmod
