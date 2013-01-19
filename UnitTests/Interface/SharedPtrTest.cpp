@@ -26,7 +26,6 @@ public:
     
     virtual ~SharedPtrTest()
     {
-        
     }
     
     TSharedPtr& GetSharedPtr()
@@ -45,11 +44,11 @@ TEST_F(SharedPtrTest, Reset)
     // test for no argument reset
     m_ptr.reset();
     EXPECT_EQ(0, m_ptr.get());
-    EXPECT_EQ((u32) 1, *m_ptr.shareRefCounter());
+    EXPECT_EQ((u32) 1, m_ptr.use_count());
     
     m_ptr.reset(newPtr);
     EXPECT_EQ(newPtr, m_ptr.get());
-    EXPECT_EQ((u32) 1, *m_ptr.shareRefCounter());
+    EXPECT_EQ((u32) 1, m_ptr.use_count());
 }
 
 TEST_F(SharedPtrTest, CopyConstructor)
@@ -57,8 +56,7 @@ TEST_F(SharedPtrTest, CopyConstructor)
     TSharedPtr testedPtr(m_ptr);
     
     EXPECT_EQ(m_ptr.get(), testedPtr.get());
-    EXPECT_EQ(m_ptr.shareRefCounter(), testedPtr.shareRefCounter());
-    EXPECT_EQ((u32) 2, *testedPtr.shareRefCounter());
+    EXPECT_EQ((u32) 2, testedPtr.use_count());
 }
 
 TEST_F(SharedPtrTest, Swap)
@@ -74,9 +72,9 @@ TEST_F(SharedPtrTest, Swap)
     EXPECT_EQ(ptr0OrigPtr, ptr1.get());
     EXPECT_EQ(ptr1OrigPtr, ptr0.get());
     EXPECT_EQ(ptr1OrigPtr, ptr2.get());
-    EXPECT_EQ((u32) 2, *ptr0.shareRefCounter());
-    EXPECT_EQ((u32) 1, *ptr1.shareRefCounter());
-    EXPECT_EQ((u32) 2, *ptr2.shareRefCounter());
+    EXPECT_EQ((u32) 2, ptr0.use_count());
+    EXPECT_EQ((u32) 1, ptr1.use_count());
+    EXPECT_EQ((u32) 2, ptr2.use_count());
 }
 
 TEST_F(SharedPtrTest, SamePtrReset)
@@ -85,8 +83,7 @@ TEST_F(SharedPtrTest, SamePtrReset)
     m_ptr.reset(orgPtr);
     
     EXPECT_EQ(orgPtr, m_ptr.get());
-    ASSERT_TRUE(m_ptr.shareRefCounter() != 0);
-    EXPECT_EQ((u32) 1, *m_ptr.shareRefCounter());
+    EXPECT_EQ((u32) 1, m_ptr.use_count());
 }
 
 TEST_F(SharedPtrTest, SamePtrSwap)
@@ -95,8 +92,7 @@ TEST_F(SharedPtrTest, SamePtrSwap)
     m_ptr.swap(m_ptr);
     
     EXPECT_EQ(orgPtr, m_ptr.get());
-    ASSERT_TRUE(m_ptr.shareRefCounter() != 0);
-    EXPECT_EQ((u32) 1, *m_ptr.shareRefCounter());
+    EXPECT_EQ((u32) 1, m_ptr.use_count());
 }
 
 // don't use it anywhere outside this file
@@ -121,19 +117,6 @@ TEST_F(SharedPtrTest, operatorArrow)
     EXPECT_EQ(jVal, newShPtr->j);
 }
 
-// very dirty test. Don't do it at home kids
-TEST_F(SharedPtrTest, DeleteNotShared)
-{
-    TSharedPtr* newShPtr0   = new TSharedPtr(new TPtr);
-    TSharedPtr* newShPtr1   = newShPtr0;
-    
-    delete newShPtr0;
-    
-    // check the memory used previously by the destroyed shared array
-    EXPECT_EQ((TPtr*) 0, newShPtr1->get());
-    EXPECT_EQ((u32*) 0, newShPtr1->shareRefCounter());
-}
-
 TEST_F(SharedPtrTest, DeleteShared)
 {
     TPtr* ptr               = m_ptr.get();
@@ -142,6 +125,6 @@ TEST_F(SharedPtrTest, DeleteShared)
     delete newShPtr;
     
     EXPECT_EQ(ptr, m_ptr.get());
-    EXPECT_EQ((u32) 1, *m_ptr.shareRefCounter());
+    EXPECT_EQ((u32) 1, m_ptr.use_count());
 }
 

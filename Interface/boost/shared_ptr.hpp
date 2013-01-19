@@ -8,7 +8,8 @@
 #ifndef SHARED_PTR_HPP
 #define	SHARED_PTR_HPP
 
-#include <algorithm>
+#include <algorithm>    // std::swap
+#include <boost/detail/shared_count.hpp>
 
 namespace boost
 {
@@ -21,133 +22,90 @@ class shared_ptr
 public:
 
     // creates shared_ptr with object to point to
-
     explicit shared_ptr(T* obj = 0) :
-    m_ptr(obj)
+        m_ptr(obj),
+        m_counter()
     {
-        m_referencesCounter = new u32;
-        *m_referencesCounter = (u32) 1;
     }
 
     // copy constructor
-    shared_ptr(shared_ptr< T >& sharedPtrObj);
+    shared_ptr(shared_ptr< T >& sharedPtrObj) :
+        m_ptr(sharedPtrObj.get()),
+        m_counter(sharedPtrObj.m_counter)
+    {
+        /*
+         * unwrap not needed cause copy constructor is called
+         * for not existing objects
+         */
+    }
+    
+    T* get() const
+    {
+        return m_ptr;
+    }
+    
+    u32 use_count() const
+    {
+        return m_counter.use_count();
+    }
 
-    void reset(T* newPtr = 0);
+    void reset(T* newPtr = 0)
+    {
+        if(newPtr != m_ptr)
+        {
+            unwrap();
 
-    // dereference will point to the wrapped object
-    // shared_ptr->foo() will call m_obj->foo()
+            m_ptr = newPtr;
+            m_counter.reset();
+        }
+    }
+    
     T* operator->() const
     {
         return m_ptr;
     }
 
-    T operator*() const
+    shared_ptr< T >& operator=(const shared_ptr< T >& sharedPtrObj)
     {
-        return *m_ptr;
+        // unwrap the currently wrapped object
+        unwrap();
+
+        m_ptr       = sharedPtrObj.get();
+        m_counter   = sharedPtrObj.m_counter;
+
+        return *this;
     }
 
-    // current object is "unwrapped", its reference value is decreased
-    // wraps object wrapped by the argument, gets its references counter and increases it
-    shared_ptr< T >& operator=(const shared_ptr< T >&);
-
-    // returns pointer to the wrapped object
-    T* get() const
+    void swap(shared_ptr<T>& sharedPtrObj)
     {
-        return m_ptr;
+        std::swap(*this, sharedPtrObj);
     }
 
-    // shares references counter so that it may be changed by another shared_ptr
-    u32* shareRefCounter() const
+    ~shared_ptr()
     {
-        return m_referencesCounter;
+        unwrap();
     }
-
-    // returns the number of shared_ptr objects referring to the same managed object
-
-    u32 use_count() const
-    {
-        return *m_referencesCounter;
-    }
-
-    void swap(shared_ptr<T>& sharedPtrObj);
-
-    ~shared_ptr();
 
 protected:
 
     // unwraps currently wrapped object
-    void unwrap();
-
-    T* m_ptr;
-    u32* m_referencesCounter;
-};
-
-template < typename T >
-shared_ptr< T >::shared_ptr(shared_ptr< T >& sharedPtrObj)
-{
-    /*
-     *  unwrap not needed cause copy constructor is called
-     * for not existing objects
-     */
-    m_ptr               = sharedPtrObj.get();
-    m_referencesCounter = sharedPtrObj.shareRefCounter();
-    (*m_referencesCounter)++;
-}
-
-template < typename T >
-void shared_ptr< T >::reset(T* newPtr)
-{
-    if(newPtr != m_ptr)
+    void unwrap()
     {
-        unwrap();
-
-        m_ptr                   = newPtr;
-        m_referencesCounter     = new u32;
-        *m_referencesCounter    = 1;
-    }
-}
-
-template < typename T >
-shared_ptr< T >& shared_ptr< T >::operator=(const shared_ptr< T >& sharedPtrObj)
-{
-    // unwrap the currently wrapped object
-    unwrap();
-
-    m_ptr               = sharedPtrObj.get();
-    m_referencesCounter = sharedPtrObj.shareRefCounter();
-    (*m_referencesCounter)++;
-
-    return *this;
-}
-
-template < typename T >
-void shared_ptr< T >::swap(shared_ptr<T>& sharedPtrObj)
-{
-    std::swap(*this, sharedPtrObj);
-}
-
-template < typename T >
-void shared_ptr< T >::unwrap()
-{
-    if(--(*m_referencesCounter) == 0)
-    {
-        if(m_ptr != 0)
+        if((--m_counter).use_count() == 0)
         {
-            delete m_ptr;
-            delete m_referencesCounter;
-            m_ptr = 0;
-            m_referencesCounter = 0;
+            if(m_ptr != 0)
+            {
+                delete m_ptr;
+                m_ptr = 0;
+            }
         }
     }
-}
 
-template < typename T >
-shared_ptr< T >::~shared_ptr()
-{
-    unwrap();
-}
+    T*              m_ptr;
+    shared_count    m_counter;
+};
 
-}
+}   // namespace boost
 
 #endif	/* SHARED_PTR_HPP */
 
