@@ -52,6 +52,7 @@ TESTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tests
 
 # Test Files
 TESTFILES= \
+	${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/eradio \
 	${TESTDIR}/TestFiles/f1 \
 	${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/eradio
 
@@ -139,6 +140,10 @@ ${OBJECTDIR}/Audio/src/CAudioHwNotConfigured.o: Audio/src/CAudioHwNotConfigured.
 
 # Build Test Targets
 .build-tests-conf: .build-conf ${TESTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/eradio: ${TESTDIR}/UnitTests/Interface/SCircBufferTest.o ${OBJECTFILES:%.o=%_nomain.o}
+	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
+	${LINK.cc}   -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/eradio $^ ${LDLIBSOPTIONS} 
+
 ${TESTDIR}/TestFiles/f1: ${TESTDIR}/UnitTests/Interface/SharedArrayTest.o ${OBJECTFILES:%.o=%_nomain.o}
 	${MKDIR} -p ${TESTDIR}/TestFiles
 	${LINK.cc}   -o ${TESTDIR}/TestFiles/f1 $^ ${LDLIBSOPTIONS} 
@@ -146,6 +151,12 @@ ${TESTDIR}/TestFiles/f1: ${TESTDIR}/UnitTests/Interface/SharedArrayTest.o ${OBJE
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/eradio: ${TESTDIR}/UnitTests/Interface/SharedPtrTest.o ${OBJECTFILES:%.o=%_nomain.o}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc}   -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/eradio $^ ${LDLIBSOPTIONS} 
+
+
+${TESTDIR}/UnitTests/Interface/SCircBufferTest.o: UnitTests/Interface/SCircBufferTest.cpp 
+	${MKDIR} -p ${TESTDIR}/UnitTests/Interface
+	${RM} $@.d
+	$(COMPILE.cc) -O3 -Werror -s -IInterface/globalDefs -ITcpIp/inc -IRadioProtocols/inc -IHttp/inc -IRadioProtocols/Shoutcast/inc -IAudio/inc -IDataReceiver/inc -IInterface -IRadioProtocols/File/inc -MMD -MP -MF $@.d -o ${TESTDIR}/UnitTests/Interface/SCircBufferTest.o UnitTests/Interface/SCircBufferTest.cpp
 
 
 ${TESTDIR}/UnitTests/Interface/SharedArrayTest.o: UnitTests/Interface/SharedArrayTest.cpp 
@@ -307,6 +318,7 @@ ${OBJECTDIR}/Audio/src/CAudioHwNotConfigured_nomain.o: ${OBJECTDIR}/Audio/src/CA
 .test-conf:
 	@if [ "${TEST}" = "" ]; \
 	then  \
+	    ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/eradio || true; \
 	    ${TESTDIR}/TestFiles/f1 || true; \
 	    ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/eradio || true; \
 	else  \

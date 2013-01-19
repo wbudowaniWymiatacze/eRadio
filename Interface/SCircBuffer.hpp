@@ -8,12 +8,6 @@
 #ifndef SCIRCBUFFER_HPP
 #define	SCIRCBUFFER_HPP
 
-#include <gloDefs.hpp>
-#include <boost/shared_array.hpp>
-
-namespace eradio
-{
-
 /**
  * Implements circular buffer with functions to write and read data
  * @param T type of buffer
@@ -21,17 +15,21 @@ namespace eradio
 template< typename T >
 struct SCircBuffer
 {
+private:
+    typedef unsigned int u32;
+    
 public:
     /**
      * Creates circular buffer and initiates pointers
      * @param len       length of the circular buffer
      */
-    SCircBuffer(::boost::shared_array<T> buf,
-                u32                         len) :
-        m_buffer(buf)
+    SCircBuffer(T*  buf = 0,
+                u32  len = 0) :
+        m_buffer(buf),
+        m_curPointer(buf),
+        m_endPointer(buf + len)
     {
-        m_curPointer    = m_buffer.get();
-        m_endPointer    = m_buffer.get() + len;
+            
     }
         
     /**
@@ -44,23 +42,23 @@ public:
     {
         // check if there's enough space for the data
         // up till the end of the buffer
-        if(len<=m_curPointer-m_endPointer+1)
+        if(len<=static_cast<u32>(m_endPointer-m_curPointer)+1)
         {
-            memcpy(data, m_curPointer, len);
+            memcpy(data, m_curPointer, len*sizeof(T));
             m_curPointer += len;
         }
         else
         {
             // get the amount of data that may be loaded
             // up till the end of the buffer
-            u32 curLen = m_curPointer-m_endPointer+1;
-            memcpy(data, m_curPointer, curLen);
+            u32 curLen = static_cast<u32>(m_endPointer-m_curPointer);
+            memcpy(data, m_curPointer, curLen*sizeof(T));
             data += curLen;
             
             // calculate how much data still needs to be loaded
             curLen = len - curLen;
-            memcpy(data, m_buffer.get(), curLen);
-            m_curPointer = m_buffer.get() + curLen;
+            memcpy(data, m_buffer, curLen*sizeof(T));
+            m_curPointer = m_buffer + curLen;
         }
     }
         
@@ -75,33 +73,31 @@ public:
     {
         // check if there's enough space for the data
         // up till the end of the buffer
-        if(len<=m_curPointer-m_endPointer+1)
+        if(len<=static_cast<u32>(m_endPointer-m_curPointer)+1)
         {
-            memcpy(m_curPointer, data, len);
+            memcpy(m_curPointer, data, len*sizeof(T));
             m_curPointer += len;
         }
         else
         {
             // get the amount of data that may be stored
             // up till the end of the buffer
-            u32 curLen = m_curPointer-m_endPointer+1;
-            memcpy(m_curPointer, data, curLen);
+            u32 curLen = m_endPointer-m_curPointer+1;
+            memcpy(m_curPointer, data, curLen*sizeof(T));
             data += curLen;
             
             // calculate how much data still needs to be stored
             curLen = len - curLen;
-            memcpy(m_buffer.get(), data, curLen);
-            m_curPointer = m_buffer.get() + curLen;
+            memcpy(m_buffer, data, curLen*sizeof(T));
+            m_curPointer = m_buffer + curLen;
         }
     }
     
 private:
-    ::boost::shared_array<T> m_buffer;
-    T*                          m_curPointer;
-    T*                          m_endPointer;
+    T*  m_buffer;
+    T*  m_curPointer;
+    T*  m_endPointer;
 };
-
-} // namespace eradio
 
 #endif	/* SCIRCBUFFER_HPP */
 

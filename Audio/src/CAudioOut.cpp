@@ -19,7 +19,7 @@ CAudioOut::CAudioOut(IAudioDecoder*                 decoder,
                      CAudioHw*                      audioHw,
                      ::boost::shared_array<u32>  audioBuffer,
                      u32                            bufLen) :
-    m_audioBuffer(audioBuffer, bufLen),
+    m_audioBuffer(audioBuffer.get(), bufLen),
     m_decoder(decoder),
     m_audioHw(audioHw)
 {

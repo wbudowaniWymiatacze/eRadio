@@ -113,19 +113,6 @@ TEST_F(SharedArrayTest, squareBrackets)
     }
 }
 
-// very dirty test
-TEST_F(SharedArrayTest, DeleteNotShared)
-{
-    TSharedArray* arr       = new TSharedArray((new TArr[g_arrSize]));
-    TSharedArray* arrPtr    = arr;
-    
-    delete arr;
-    
-    // check the memory used previously be the destroyed shared array
-    EXPECT_EQ((TArr*) 0, arrPtr->get());
-    EXPECT_EQ((u32*) 0, arrPtr->shareRefCounter());
-}
-
 TEST_F(SharedArrayTest, DeleteShared)
 {
     TArr* arrPtr            = m_arr.get();

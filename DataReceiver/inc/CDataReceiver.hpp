@@ -11,6 +11,7 @@
 #include <gloDefs.hpp>
 #include <CTcpClient.hpp>
 #include <SCircBuffer.hpp>
+#include <boost/shared_array.hpp>
 
 namespace eradio
 {

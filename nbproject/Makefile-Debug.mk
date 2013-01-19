@@ -52,6 +52,7 @@ TESTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tests
 
 # Test Files
 TESTFILES= \
+	${TESTDIR}/TestFiles/f3 \
 	${TESTDIR}/TestFiles/f1 \
 	${TESTDIR}/TestFiles/f2
 
@@ -139,6 +140,10 @@ ${OBJECTDIR}/Audio/src/CAudioHwNotConfigured.o: Audio/src/CAudioHwNotConfigured.
 
 # Build Test Targets
 .build-tests-conf: .build-conf ${TESTFILES}
+${TESTDIR}/TestFiles/f3: ${TESTDIR}/UnitTests/Interface/SCircBufferTest.o ${OBJECTFILES:%.o=%_nomain.o}
+	${MKDIR} -p ${TESTDIR}/TestFiles
+	${LINK.cc}   -o ${TESTDIR}/TestFiles/f3 $^ ${LDLIBSOPTIONS} 
+
 ${TESTDIR}/TestFiles/f1: ${TESTDIR}/UnitTests/Interface/SharedArrayTest.o ${OBJECTFILES:%.o=%_nomain.o}
 	${MKDIR} -p ${TESTDIR}/TestFiles
 	${LINK.cc}   -o ${TESTDIR}/TestFiles/f1 $^ ${LDLIBSOPTIONS} 
@@ -146,6 +151,12 @@ ${TESTDIR}/TestFiles/f1: ${TESTDIR}/UnitTests/Interface/SharedArrayTest.o ${OBJE
 ${TESTDIR}/TestFiles/f2: ${TESTDIR}/UnitTests/Interface/SharedPtrTest.o ${OBJECTFILES:%.o=%_nomain.o}
 	${MKDIR} -p ${TESTDIR}/TestFiles
 	${LINK.cc}   -o ${TESTDIR}/TestFiles/f2 $^ ${LDLIBSOPTIONS} 
+
+
+${TESTDIR}/UnitTests/Interface/SCircBufferTest.o: UnitTests/Interface/SCircBufferTest.cpp 
+	${MKDIR} -p ${TESTDIR}/UnitTests/Interface
+	${RM} $@.d
+	$(COMPILE.cc) -g -Werror -I. -IInterface/globalDefs -ITcpIp/inc -IRadioProtocols/inc -IHttp/inc -IRadioProtocols/Shoutcast/inc -IAudio/inc -IDataReceiver/inc -IInterface -IRadioProtocols/File/inc -I../../programmingResources/boost_1_48_0/dist/bin/smart_ptrs -MMD -MP -MF $@.d -o ${TESTDIR}/UnitTests/Interface/SCircBufferTest.o UnitTests/Interface/SCircBufferTest.cpp
 
 
 ${TESTDIR}/UnitTests/Interface/SharedArrayTest.o: UnitTests/Interface/SharedArrayTest.cpp 
@@ -307,6 +318,7 @@ ${OBJECTDIR}/Audio/src/CAudioHwNotConfigured_nomain.o: ${OBJECTDIR}/Audio/src/CA
 .test-conf:
 	@if [ "${TEST}" = "" ]; \
 	then  \
+	    ${TESTDIR}/TestFiles/f3 || true; \
 	    ${TESTDIR}/TestFiles/f1 || true; \
 	    ${TESTDIR}/TestFiles/f2 || true; \
 	else  \

@@ -15,7 +15,7 @@ CDataReceiver::CDataReceiver(tcp::CTcpServer&               tcpServer,
                              ::boost::shared_array<u32>  audioBuffer,
                              u32                            bufLen) :
     m_dataRcvState(0), //TODO
-    m_audioBuffer(audioBuffer, bufLen)
+    m_audioBuffer(audioBuffer.get(), bufLen)
 {
     tcpServer.RegisterClient(*this);
 }
