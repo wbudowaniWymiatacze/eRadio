@@ -57,8 +57,7 @@ TEST_F(SharedArrayTest, CopyConstructor)
     TSharedArray testedArray(m_arr);
     
     EXPECT_EQ(m_arr.get(), testedArray.get());
-    EXPECT_EQ(m_arr.shareRefCounter(), testedArray.shareRefCounter());
-    EXPECT_EQ((u32) 2, *testedArray.shareRefCounter());
+    EXPECT_EQ((u32) 2, testedArray.use_count());
 }
 
 TEST_F(SharedArrayTest, Swap)
@@ -74,9 +73,9 @@ TEST_F(SharedArrayTest, Swap)
     EXPECT_EQ(arr0OrigPtr, arr1.get());
     EXPECT_EQ(arr1OrigPtr, arr0.get());
     EXPECT_EQ(arr1OrigPtr, arr2.get());
-    EXPECT_EQ((u32) 2, *arr0.shareRefCounter());
-    EXPECT_EQ((u32) 1, *arr1.shareRefCounter());
-    EXPECT_EQ((u32) 2, *arr2.shareRefCounter());
+    EXPECT_EQ((u32) 2, arr0.use_count());
+    EXPECT_EQ((u32) 1, arr1.use_count());
+    EXPECT_EQ((u32) 2, arr2.use_count());
 }
 
 TEST_F(SharedArrayTest, SamePtrReset)
@@ -85,8 +84,7 @@ TEST_F(SharedArrayTest, SamePtrReset)
     m_arr.reset(orgPtr);
     
     EXPECT_EQ(orgPtr, m_arr.get());
-    ASSERT_TRUE(m_arr.shareRefCounter() != 0);
-    EXPECT_EQ((u32) 1, *m_arr.shareRefCounter());
+    EXPECT_EQ((u32) 1, m_arr.use_count());
 }
 
 TEST_F(SharedArrayTest, SamePtrSwap)
@@ -95,8 +93,7 @@ TEST_F(SharedArrayTest, SamePtrSwap)
     m_arr.swap(m_arr);
     
     EXPECT_EQ(orgPtr, m_arr.get());
-    ASSERT_TRUE(m_arr.shareRefCounter() != 0);
-    EXPECT_EQ((u32) 1, *m_arr.shareRefCounter());
+    EXPECT_EQ((u32) 1, m_arr.use_count());
 }
 
 TEST_F(SharedArrayTest, squareBrackets)
@@ -121,6 +118,6 @@ TEST_F(SharedArrayTest, DeleteShared)
     delete arr;
     
     EXPECT_EQ(arrPtr, m_arr.get());
-    EXPECT_EQ((u32) 1, *m_arr.shareRefCounter());
+    EXPECT_EQ((u32) 1, m_arr.use_count());
 }
 

@@ -9,6 +9,7 @@
 #define	SHARED_ARRAY_HPP
 
 #include <algorithm>
+#include <boost/shared_base.hpp>
 
 namespace boost
 {
@@ -16,112 +17,50 @@ namespace boost
 typedef unsigned int u32;
 
 template <typename T>
-class shared_array
+class shared_array : public shared_base<T>
 {
 
 public:
     explicit shared_array(T* arr = 0) :
-        m_arr(arr)
+        shared_base<T>(arr)
     {
-        m_referencesCounter     = new u32;
-        *m_referencesCounter    = 1;
     }
     
-    shared_array(shared_array<T>& sharedArrayObj);
-    
-    shared_array<T>& operator=(shared_array<T>&);
-    
-    void reset(T* newArr = 0);
+    shared_array(shared_array<T>& other) :
+        shared_base<T>(other)
+    {
+        
+    }
+
+    void swap(shared_array<T>& other)
+    {
+        std::swap(*this, other);
+    }
     
     T& operator[](u32 idx)
     {
-        return m_arr[idx];
+        return shared_base<T>::m_ptr[idx];
     }
     
-    // returns pointer to the held array
-    T* get()
-    {
-        return m_arr;
-    }
-
-	// shares references counter so that it may be changed by another shared_ptr
-	u32* shareRefCounter()
-    {
-        return m_referencesCounter;
-    }
-    
-    void swap(shared_array<T>& newSharedArray);
-    
-    ~shared_array()
+    virtual ~shared_array()
     {
         unwrap();
     }
         
 private:
 	// unwraps currently wrapped object
-	void unwrap();
-    
-    T*      m_arr;
-    u32*    m_referencesCounter;
-};
-
-template<typename T>
-shared_array<T>::shared_array(shared_array<T>& sharedArrayObj)
-{
-    // copy construct is called for new objects only
-    // no need to unwrap this object
-    
-    m_arr               = sharedArrayObj.get();
-    m_referencesCounter = sharedArrayObj.shareRefCounter();
-    (*m_referencesCounter)++;
-}
-    
-template<typename T>
-shared_array<T>& shared_array<T>::operator=(shared_array<T>& sharedArrayObj)
-{
-    unwrap();
-    
-    m_arr               = sharedArrayObj.get();
-    m_referencesCounter = sharedArrayObj.shareRefCounter();
-    (*m_referencesCounter)++;
-    
-    return *this;
-}
-
-template<typename T>
-void shared_array<T>::reset(T* newArr)
-{
-    if(newArr != m_arr)
+	void unwrap()
     {
-        // unwrap currently held array
-        unwrap();
-
-        m_arr = newArr;
-        m_referencesCounter = new u32;
-        *m_referencesCounter = 1;
-    }
-}
-
-template<typename T>
-void shared_array<T>::swap(shared_array<T>& newSharedArray)
-{
-    std::swap(*this, newSharedArray);
-}
-
-template<typename T>
-void shared_array<T>::unwrap()
-{
-    if(--(*m_referencesCounter) == 0)
-    {
-        if(m_arr != 0)
+        if((--shared_base<T>::m_counter).use_count() == 0)
         {
-            delete[] m_arr;
-            delete m_referencesCounter;
-            m_arr               = 0;
-            m_referencesCounter = 0;
+            if(shared_base<T>::m_ptr != 0)
+            {
+                delete[] shared_base<T>::m_ptr;
+                shared_base<T>::m_ptr = 0;
+            }
         }
     }
-}
+};
 
 }
 

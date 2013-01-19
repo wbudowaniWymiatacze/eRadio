@@ -9,7 +9,7 @@
 #define	SHARED_PTR_HPP
 
 #include <algorithm>    // std::swap
-#include <boost/detail/shared_count.hpp>
+#include <boost/shared_base.hpp>
 
 namespace boost
 {
@@ -17,92 +17,55 @@ namespace boost
 typedef unsigned int u32;
 
 template < typename T >
-class shared_ptr
+class shared_ptr : public shared_base<T>
 {
 public:
 
     // creates shared_ptr with object to point to
     explicit shared_ptr(T* obj = 0) :
-        m_ptr(obj),
-        m_counter()
+        shared_base<T>(obj)
     {
     }
 
     // copy constructor
-    shared_ptr(shared_ptr< T >& sharedPtrObj) :
-        m_ptr(sharedPtrObj.get()),
-        m_counter(sharedPtrObj.m_counter)
+    shared_ptr(shared_ptr< T >& other) :
+        shared_base<T>(other)
     {
         /*
          * unwrap not needed cause copy constructor is called
          * for not existing objects
          */
     }
-    
-    T* get() const
-    {
-        return m_ptr;
-    }
-    
-    u32 use_count() const
-    {
-        return m_counter.use_count();
-    }
 
-    void reset(T* newPtr = 0)
+    void swap(shared_ptr<T>& other)
     {
-        if(newPtr != m_ptr)
-        {
-            unwrap();
-
-            m_ptr = newPtr;
-            m_counter.reset();
-        }
+        std::swap(*this, other);
     }
     
     T* operator->() const
     {
-        return m_ptr;
+        return shared_base<T>::m_ptr;
     }
 
-    shared_ptr< T >& operator=(const shared_ptr< T >& sharedPtrObj)
-    {
-        // unwrap the currently wrapped object
-        unwrap();
-
-        m_ptr       = sharedPtrObj.get();
-        m_counter   = sharedPtrObj.m_counter;
-
-        return *this;
-    }
-
-    void swap(shared_ptr<T>& sharedPtrObj)
-    {
-        std::swap(*this, sharedPtrObj);
-    }
-
-    ~shared_ptr()
+    virtual ~shared_ptr()
     {
         unwrap();
     }
 
-protected:
+private:
 
     // unwraps currently wrapped object
-    void unwrap()
+    virtual void unwrap()
     {
-        if((--m_counter).use_count() == 0)
+        if((--shared_base<T>::m_counter).use_count() == 0)
         {
-            if(m_ptr != 0)
+            if(shared_base<T>::m_ptr != 0)
             {
-                delete m_ptr;
-                m_ptr = 0;
+                delete shared_base<T>::m_ptr;
+                shared_base<T>::m_ptr = 0;
             }
         }
     }
-
-    T*              m_ptr;
-    shared_count    m_counter;
 };
 
 }   // namespace boost
