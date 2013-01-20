@@ -27,9 +27,24 @@ public:
                 u32  len = 0) :
         m_buffer(buf),
         m_curPointer(buf),
-        m_endPointer(buf + len)
+        m_endPointer(buf + len),
+        m_length(len),
+        m_startOffset(0)
     {
             
+    }
+    
+    /**
+     * Returns value at given index of the circular buffer in the sequence
+     * the data was written to the circular buffer. If index is bigger
+     * than the length of the buffer, value at
+     * idx % (circular buffer length) is returned
+     * @param idx   index of the circular buffer
+     * @return value at the given index modulo (circular buffer length)
+     */
+    T operator[](u32 idx)
+    {
+        return m_buffer[(m_startOffset + idx) % m_length];
     }
         
     /**
@@ -60,6 +75,8 @@ public:
             memcpy(data, m_buffer, curLen*sizeof(T));
             m_curPointer = m_buffer + curLen;
         }
+        
+        m_startOffset = static_cast<u32>(m_curPointer - m_buffer);
     }
         
     /**
@@ -82,7 +99,7 @@ public:
         {
             // get the amount of data that may be stored
             // up till the end of the buffer
-            u32 curLen = m_endPointer-m_curPointer+1;
+            u32 curLen = static_cast<u32>(m_endPointer-m_curPointer);
             memcpy(m_curPointer, data, curLen*sizeof(T));
             data += curLen;
             
@@ -91,12 +108,16 @@ public:
             memcpy(m_buffer, data, curLen*sizeof(T));
             m_curPointer = m_buffer + curLen;
         }
+        
+        m_startOffset = static_cast<u32>(m_curPointer - m_buffer);
     }
     
-private:
+public:
     T*  m_buffer;
     T*  m_curPointer;
     T*  m_endPointer;
+    u32 m_length;
+    u32 m_startOffset;  // = (u32)(m_curPointer - m_buffer)
 };
 
 #endif	/* SCIRCBUFFER_HPP */

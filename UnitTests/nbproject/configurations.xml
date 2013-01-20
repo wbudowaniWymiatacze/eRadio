@@ -44,6 +44,7 @@
           </logicalFolder>
           <itemPath>../Interface/boost/scoped_ptr.hpp</itemPath>
           <itemPath>../Interface/boost/shared_array.hpp</itemPath>
+          <itemPath>../Interface/boost/shared_base.hpp</itemPath>
           <itemPath>../Interface/boost/shared_ptr.hpp</itemPath>
         </logicalFolder>
         <logicalFolder name="globalDefs" displayName="globalDefs" projectFiles="true">
