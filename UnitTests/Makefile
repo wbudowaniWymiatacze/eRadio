@@ -37,6 +37,9 @@ OBJS_OUT_DIR = objs
 # ASM definitions
 AS_DEFS =
 
+GMOCK_DIR = /home/artur/programmingResources/gmock
+GTEST_DIR = $(GMOCK_DIR)/gtest
+
 # include directories (absolute or relative paths to additional folders with
 # headers, current folder is always included)
 INC_DIRS = ../Audio/inc
@@ -49,7 +52,9 @@ INC_DIRS += ../RadioProtocols/inc
 INC_DIRS += ../RadioProtocols/File/inc
 INC_DIRS += ../RadioProtocols/Shoutcast/inc
 INC_DIRS += ../TcpIp/inc
-INC_DIRS += /home/artur/programmingResources/gtest/include
+INC_DIRS += $(GMOCK_DIR)/include
+INC_DIRS += $(GTEST_DIR)/include
+INC_DIRS += Mocks
 
 # library directories (absolute or relative paths to additional folders with
 # libraries)
@@ -57,7 +62,7 @@ LIB_DIRS =
 
 # libraries (additional libraries for linking, e.g. "-lm -lsome_name" to link
 # math library libm.a and libsome_name.a)
-LIBS = -lpthread /home/artur/programmingResources/gtest/lib/.libs/libgtest.a
+LIBS = -lpthread $(GMOCK_DIR)/lib/libgmock.a $(GTEST_DIR)/lib/libgtest.a -logg
 
 # additional directories with source files (absolute or relative paths to
 # folders with source files, current folder is always included)
@@ -69,6 +74,7 @@ SRC_DIRS += ../RadioProtocols/File/src
 SRC_DIRS += ../RadioProtocols/Shoutcast/src
 SRC_DIRS += ../TcpIp/src
 SRC_DIRS += Interface
+SRC_DIRS += RadioProtocols
 
 # extension of C++ files
 CXX_EXT = cpp

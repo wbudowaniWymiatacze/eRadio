@@ -58,12 +58,15 @@
                      projectFiles="true">
         <logicalFolder name="File" displayName="File" projectFiles="true">
           <logicalFolder name="inc" displayName="inc" projectFiles="true">
+            <itemPath>../RadioProtocols/File/inc/CFileInputFacade.hpp</itemPath>
             <itemPath>../RadioProtocols/File/inc/CFileStrategy.hpp</itemPath>
             <itemPath>../RadioProtocols/File/inc/COggContainer.hpp</itemPath>
+            <itemPath>../RadioProtocols/File/inc/COggLibFacade.hpp</itemPath>
           </logicalFolder>
           <logicalFolder name="src" displayName="src" projectFiles="true">
             <itemPath>../RadioProtocols/File/src/CFileStrategy.cpp</itemPath>
             <itemPath>../RadioProtocols/File/src/COggContainer.cpp</itemPath>
+            <itemPath>../RadioProtocols/File/src/COggLibFacade.cpp</itemPath>
           </logicalFolder>
         </logicalFolder>
         <logicalFolder name="inc" displayName="inc" projectFiles="true">
@@ -95,7 +98,14 @@
         <in>SharedArrayTest.cpp</in>
         <in>SharedPtrTest.cpp</in>
       </df>
+      <df name="Mocks">
+        <in>CFileInputMock.hpp</in>
+        <in>COggLibMock.hpp</in>
+      </df>
       <df name="objs">
+      </df>
+      <df name="RadioProtocols">
+        <in>OggContainerTetsts.cpp</in>
       </df>
       <in>main.cpp</in>
     </df>
@@ -132,18 +142,54 @@
               <pElem>../Http/inc</pElem>
               <pElem>../RadioProtocols/inc</pElem>
               <pElem>../TcpIp/inc</pElem>
-              <pElem>../../../programmingResources/gtest/include</pElem>
               <pElem>../RadioProtocols/File/inc</pElem>
               <pElem>../Interface</pElem>
+              <pElem>../../../programmingResources/gmock/gtest/include</pElem>
               <pElem>../RadioProtocols/Shoutcast/inc</pElem>
-              <pElem>.</pElem>
               <pElem>../Audio/inc</pElem>
+              <pElem>.</pElem>
               <pElem>../Interface/globalDefs</pElem>
               <pElem>../Interface/boost</pElem>
+              <pElem>../../../programmingResources/gmock/include</pElem>
+              <pElem>Mocks</pElem>
             </incDir>
           </ccTool>
         </makeTool>
       </makefileType>
+      <item path="../RadioProtocols/Shoutcast/src/CShoutcastStrategy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../TcpIp/src/CTcpClient.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../TcpIp/src/CTcpServer.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="Interface/SCircBufferTest.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="Interface/SharedArrayTest.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="Interface/SharedPtrTest.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="RadioProtocols/OggContainerTetsts.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
     </conf>
   </confs>
 </configurationDescriptor>
