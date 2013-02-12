@@ -57,12 +57,15 @@
                    projectFiles="true">
       <logicalFolder name="File" displayName="File" projectFiles="true">
         <logicalFolder name="inc" displayName="inc" projectFiles="true">
+          <itemPath>RadioProtocols/File/inc/CFileInputFacade.hpp</itemPath>
           <itemPath>RadioProtocols/File/inc/CFileStrategy.hpp</itemPath>
           <itemPath>RadioProtocols/File/src/COggContainer.cpp</itemPath>
           <itemPath>RadioProtocols/File/inc/COggContainer.hpp</itemPath>
+          <itemPath>RadioProtocols/File/inc/COggLibFacade.hpp</itemPath>
         </logicalFolder>
         <logicalFolder name="src" displayName="src" projectFiles="true">
           <itemPath>RadioProtocols/File/src/CFileStrategy.cpp</itemPath>
+          <itemPath>RadioProtocols/File/src/COggLibFacade.cpp</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="inc" displayName="inc" projectFiles="true">

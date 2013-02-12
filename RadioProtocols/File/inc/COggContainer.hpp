@@ -9,25 +9,26 @@
 #define	COGGCONTAINER_HPP
 
 #include <gloDefs.hpp>
+#include <CFileInputFacade.hpp>
+#include <COggLibFacade.hpp>
 #include <iostream>
-#include <ogg/ogg.h>
 
 namespace eradio
 {
 
-//struct ogg_sync_state;
-//struct ogg_stream_state;
-//struct ogg_page;
-//struct ogg_packet;
-
 class COggContainer
 {
+private:
+    typedef CFileInputFacade    CInput;
+    typedef COggLibFacade       COggLib;
 public:
     /**
      * 
-     * @param input         - input stream where OGG data will be read from
+     * @param[in] input         - input stream where OGG data will be read from
+     * @param[in] ogg           - OGG object needed to decode OGG Container data
      */
-    COggContainer(std::istream& input);
+    COggContainer(CInput&     input,
+                    COggLib&    ogg);
     
     /**
      * 
@@ -36,43 +37,32 @@ public:
      * @param nBytes    number of bytes to read to the buffer
      */
     void GetPayload(u8* output,
-                     i32 nBytes);
+                     u32 nBytes);
     ~COggContainer();
 private:
     void ReadInput();
     void GetPage();
     void GetPacket();
-    void GetBytesFromPacket(oggpack_buffer* packetBuffer,
-                              u8*             output,
-                              i32             nBytes);
-    // sync and verify incoming physical bitstream */
-    ogg_sync_state      m_syncState;
-    // take physical pages, weld into a logical stream of packets
-    ogg_stream_state    m_streamState;
-    // one OGG bitstream page. Vorbis packets are inside */
-    ogg_page            m_page;
-    // one raw packet of data for decode
-    ogg_packet          m_packet;
+    void GetBytesFromPacket(u8* output);
     // number of bytes to read from a buffer in each
-    u32                 m_bufferSize;
+    u32         m_bufferSize;
     // buffer for OGG data
-    u8*                 m_buffer;
+    u8*         m_buffer;
     // number of bytes not read from buffer. Mustn't be bigger than m_bufferSize
-    u32                 m_nBytesInBuffer;
+    u32         m_nBytesInBuffer;
     // stream with input data
-    std::istream&       m_input;
+    CInput&     m_input;
+    // object for basic OGG Container data decoding
+    COggLib&    m_ogg;
 
 };
 
-inline void COggContainer::GetBytesFromPacket(oggpack_buffer* packetBuffer,
-                                                u8*             output,
-                                                i32             nBytes)
+inline void COggContainer::GetBytesFromPacket(u8* output)
 {
-    const i32 oggByteSize   = 8;
-    while(nBytes--)
+    u32 bytesInPacket = m_ogg.GetPacketBytesCount();
+    while(bytesInPacket--)
     {
-        *output++   = oggpack_read(packetBuffer,
-                                   oggByteSize);
+        *output++   = m_ogg.ReadPacket();
     }
 }
 

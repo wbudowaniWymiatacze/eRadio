@@ -7,6 +7,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
-        <file>file:/home/artur/NetBeansProjects/eRadio/Interface/SCircBuffer.hpp</file>
+        <file>file:/home/artur/NetBeansProjects/eRadio/RadioProtocols/File/inc/COggLibFacade.hpp</file>
+        <file>file:/home/artur/NetBeansProjects/eRadio/RadioProtocols/File/inc/CFileInputFacade.hpp</file>
+        <file>file:/home/artur/NetBeansProjects/eRadio/UnitTests/Mocks/CFileInputMock.hpp</file>
+        <file>file:/home/artur/NetBeansProjects/eRadio/RadioProtocols/File/src/COggLibFacade.cpp</file>
+        <file>file:/home/artur/NetBeansProjects/eRadio/RadioProtocols/File/inc/COggContainer.hpp</file>
+        <file>file:/home/artur/NetBeansProjects/eRadio/RadioProtocols/File/src/COggContainer.cpp</file>
+        <file>file:/home/artur/NetBeansProjects/eRadio/UnitTests/RadioProtocols/OggContainerTetsts.cpp</file>
+        <file>file:/home/artur/NetBeansProjects/eRadio/UnitTests/Mocks/COggLibMock.hpp</file>
+        <file>file:/home/artur/NetBeansProjects/eRadio/UnitTests/main.cpp</file>
+        <file>file:/home/artur/NetBeansProjects/eRadio/UnitTests/Makefile</file>
     </open-files>
 </project-private>

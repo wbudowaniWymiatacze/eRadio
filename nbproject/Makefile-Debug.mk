@@ -45,6 +45,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/DataReceiver/src/CDataReceiver.o \
 	${OBJECTDIR}/TcpIp/src/CTcpClient.o \
 	${OBJECTDIR}/RadioProtocols/File/src/COggContainer.o \
+	${OBJECTDIR}/RadioProtocols/File/src/COggLibFacade.o \
 	${OBJECTDIR}/Audio/src/CAudioHwNotConfigured.o
 
 # Test Directory
@@ -129,6 +130,11 @@ ${OBJECTDIR}/RadioProtocols/File/src/COggContainer.o: RadioProtocols/File/src/CO
 	${MKDIR} -p ${OBJECTDIR}/RadioProtocols/File/src
 	${RM} $@.d
 	$(COMPILE.cc) -g -Werror -IInterface/globalDefs -ITcpIp/inc -IRadioProtocols/inc -IHttp/inc -IRadioProtocols/Shoutcast/inc -IAudio/inc -IDataReceiver/inc -IInterface -IRadioProtocols/File/inc -I../../programmingResources/boost_1_48_0/dist/bin/smart_ptrs -MMD -MP -MF $@.d -o ${OBJECTDIR}/RadioProtocols/File/src/COggContainer.o RadioProtocols/File/src/COggContainer.cpp
+
+${OBJECTDIR}/RadioProtocols/File/src/COggLibFacade.o: RadioProtocols/File/src/COggLibFacade.cpp 
+	${MKDIR} -p ${OBJECTDIR}/RadioProtocols/File/src
+	${RM} $@.d
+	$(COMPILE.cc) -g -Werror -IInterface/globalDefs -ITcpIp/inc -IRadioProtocols/inc -IHttp/inc -IRadioProtocols/Shoutcast/inc -IAudio/inc -IDataReceiver/inc -IInterface -IRadioProtocols/File/inc -I../../programmingResources/boost_1_48_0/dist/bin/smart_ptrs -MMD -MP -MF $@.d -o ${OBJECTDIR}/RadioProtocols/File/src/COggLibFacade.o RadioProtocols/File/src/COggLibFacade.cpp
 
 ${OBJECTDIR}/Audio/src/CAudioHwNotConfigured.o: Audio/src/CAudioHwNotConfigured.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Audio/src
@@ -299,6 +305,19 @@ ${OBJECTDIR}/RadioProtocols/File/src/COggContainer_nomain.o: ${OBJECTDIR}/RadioP
 	    $(COMPILE.cc) -g -Werror -IInterface/globalDefs -ITcpIp/inc -IRadioProtocols/inc -IHttp/inc -IRadioProtocols/Shoutcast/inc -IAudio/inc -IDataReceiver/inc -IInterface -IRadioProtocols/File/inc -I../../programmingResources/boost_1_48_0/dist/bin/smart_ptrs -Dmain=__nomain -MMD -MP -MF $@.d -o ${OBJECTDIR}/RadioProtocols/File/src/COggContainer_nomain.o RadioProtocols/File/src/COggContainer.cpp;\
 	else  \
 	    ${CP} ${OBJECTDIR}/RadioProtocols/File/src/COggContainer.o ${OBJECTDIR}/RadioProtocols/File/src/COggContainer_nomain.o;\
+	fi
+
+${OBJECTDIR}/RadioProtocols/File/src/COggLibFacade_nomain.o: ${OBJECTDIR}/RadioProtocols/File/src/COggLibFacade.o RadioProtocols/File/src/COggLibFacade.cpp 
+	${MKDIR} -p ${OBJECTDIR}/RadioProtocols/File/src
+	@NMOUTPUT=`${NM} ${OBJECTDIR}/RadioProtocols/File/src/COggLibFacade.o`; \
+	if (echo "$$NMOUTPUT" | ${GREP} '|main$$') || \
+	   (echo "$$NMOUTPUT" | ${GREP} 'T main$$') || \
+	   (echo "$$NMOUTPUT" | ${GREP} 'T _main$$'); \
+	then  \
+	    ${RM} $@.d;\
+	    $(COMPILE.cc) -g -Werror -IInterface/globalDefs -ITcpIp/inc -IRadioProtocols/inc -IHttp/inc -IRadioProtocols/Shoutcast/inc -IAudio/inc -IDataReceiver/inc -IInterface -IRadioProtocols/File/inc -I../../programmingResources/boost_1_48_0/dist/bin/smart_ptrs -Dmain=__nomain -MMD -MP -MF $@.d -o ${OBJECTDIR}/RadioProtocols/File/src/COggLibFacade_nomain.o RadioProtocols/File/src/COggLibFacade.cpp;\
+	else  \
+	    ${CP} ${OBJECTDIR}/RadioProtocols/File/src/COggLibFacade.o ${OBJECTDIR}/RadioProtocols/File/src/COggLibFacade_nomain.o;\
 	fi
 
 ${OBJECTDIR}/Audio/src/CAudioHwNotConfigured_nomain.o: ${OBJECTDIR}/Audio/src/CAudioHwNotConfigured.o Audio/src/CAudioHwNotConfigured.cpp 

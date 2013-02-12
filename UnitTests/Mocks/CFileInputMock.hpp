@@ -22,7 +22,7 @@ public:
         
     }
         
-    MOCK_CONST_METHOD2(read, void(u8* buf, u32 size));
+    MOCK_CONST_METHOD2(read, bool(u8* buf, u32 size));
     MOCK_CONST_METHOD0(gcount, i32());
 };
 

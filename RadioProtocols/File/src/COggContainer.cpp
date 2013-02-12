@@ -6,29 +6,22 @@
  */
 
 #include <COggContainer.hpp>
-#include <ogg/ogg.h>
-#include <iostream>
-#include <string.h> // for memset
+#include <CFileInputFacade.hpp>
 #include <stdlib.h>
+#include <iostream>
 
 namespace eradio
 {
 
-COggContainer::COggContainer(std::istream&  input) :
+COggContainer::COggContainer(CInput&    input,
+                             COggLib&   ogg) :
     m_bufferSize(4096),   // from Vorbis example: decoder_example.c
     m_nBytesInBuffer(m_bufferSize),
-    m_input(input)
+    m_input(input),
+    m_ogg(ogg)
 {
-    ogg_sync_init(&m_syncState);
-    
     // allocate buffer
-    m_buffer    = static_cast<u8*>(ogg_sync_buffer(&m_syncState,
-                                                   m_bufferSize));
-    
-//    memset(&m_syncState, 0, sizeof(m_syncState));
-//    memset(&m_streamState, 0, sizeof(m_streamState));
-//    memset(&m_page, 0, sizeof(m_page));
-//    memset(&m_packet, 0, sizeof(m_packet));
+    m_buffer    = m_ogg.AllocateBuffer(m_bufferSize);
     
     // initiate buffer, page and packet
     ReadInput();
@@ -37,31 +30,27 @@ COggContainer::COggContainer(std::istream&  input) :
 }
 
 void COggContainer::GetPayload(u8* output,
-                               i32 nBytes)
+                               u32 nBytes)
 {
-    oggpack_buffer packetBuffer;
-    
-    while(nBytes>=m_packet.bytes)
+    u8* tmp = output;
+    u32 bytesInPacket = m_ogg.GetPacketBytesCount();
+    while(nBytes>bytesInPacket)
     {
         // get all the data from the current packet
-        oggpack_readinit(&packetBuffer,
-                         m_packet.packet,
-                         m_packet.bytes);
-        GetBytesFromPacket(&packetBuffer,
-                           output,
-                           m_packet.bytes);
-        nBytes -= m_packet.bytes;
+        m_ogg.InitRead();
+        GetBytesFromPacket(tmp);
+        nBytes  -= bytesInPacket;
+        tmp     += bytesInPacket;
         
+        // get next packet in case more data is needed
         GetPacket();
+        
+        bytesInPacket = m_ogg.GetPacketBytesCount();
     }
     
     // get the rest of the requested data
-    oggpack_readinit(&packetBuffer,
-                     m_packet.packet,
-                     m_packet.bytes);
-    GetBytesFromPacket(&packetBuffer,
-                       output,
-                       nBytes);   
+    m_ogg.InitRead();
+    GetBytesFromPacket(tmp); 
 }
 
 void COggContainer::ReadInput()
@@ -71,30 +60,25 @@ void COggContainer::ReadInput()
                  m_bufferSize);
     
     // tell OGG how many bytes were read successfully
-    ogg_sync_wrote(&m_syncState,
-                   m_input.gcount());
+    m_ogg.SyncWrote(m_input.gcount());
 }
 
 void COggContainer::GetPage()
 {
     // try to get a page from current buffer
-    i32 status  = ogg_sync_pageout(&m_syncState,
-                                   &m_page);
+    i32 status  = m_ogg.GetPage();
     // if needed read more data to the buffer and try to get a full page
     while(status == 0)
     {
         ReadInput();
-        status  = ogg_sync_pageout(&m_syncState,
-                                   &m_page);
+        status  = m_ogg.GetPage();
     }
     
     // initialize stream and set serial number
-    ogg_stream_init(&m_streamState,
-                    ogg_page_serialno(&m_page));
+    m_ogg.InitStream();
     
     // break the page into packets
-    status =    ogg_stream_pagein(&m_streamState,
-                                  &m_page);
+    status = m_ogg.Page2Packets();
     
     if(status == -1)
     {
@@ -105,19 +89,27 @@ void COggContainer::GetPage()
 
 void COggContainer::GetPacket()
 {
-    // try to get a packet from the current page
-    while(ogg_stream_packetout(&m_streamState,
-                               &m_packet) == -1)
+    const u32 nMaxAttempts = 10;
+    i32 status = m_ogg.GetPacket();
+    
+    u32 nAttempts = 0;
+    // subsequent call to GetPacket should succeed
+    for(;status == -1 && nAttempts<nMaxAttempts; nAttempts++)
+    {
+        status = m_ogg.GetPacket();
+    }
+    
+    nAttempts = 0;
+    for(;status == 0 && nAttempts<nMaxAttempts; nAttempts++)
     {
         // if a new page is needed get it and get a full packet
         GetPage();
+        status = m_ogg.GetPacket();
     }
 }
 
 COggContainer::~COggContainer()
 {
-    ogg_stream_clear(&m_streamState);
-    ogg_sync_clear(&m_syncState);
 }
 
 } // namespace eradio

@@ -12,6 +12,7 @@
 #include <iostream>
 #include <iosfwd>
 #include <cstring>
+#include <CFileInputFacade.hpp>
 
 using namespace eradio;
 
@@ -29,12 +30,15 @@ int main(int argc, char** argv)
     radioStrat->Pause();
     radioStrat->Stop();
     
-    std::ifstream file("/home/artur/Music/Pincode (disc 2_ PiN Party)/06. Gone.ogg");
-    COggContainer ogg(file);
+    std::ifstream inStream("/home/artur/Music/Pincode (disc 2_ PiN Party)/06. Gone.ogg");
+    CFileInputFacade file(inStream);
+    COggLibFacade oggLib;
+    COggContainer oggCont(file,
+                          oggLib);
     
     u8 data[7];
-    ogg.GetPayload(data,
-                   7);
+    oggCont.GetPayload(data,
+                       7);
     
     char str[] = "aaaaaa";
     memcpy(str, &data[1], 6);

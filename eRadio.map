@@ -1,0 +1,1832 @@
+Archive member included because of file (symbol)
+
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o (__libc_csu_init)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0xc build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0xc build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0xc build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0xc build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0xc build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .text._ZNK5boost11shared_baseIjE3getEv
+                0x0000000000000000       0x12 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/main.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/main.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/main.o
+ .group         0x0000000000000000        0xc build/Debug/GNU-Linux-x86/main.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/main.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/main.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/Debug/GNU-Linux-x86/main.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .group         0x0000000000000000        0xc build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .text._ZN6eradio14IRadioStrategyC2EPKc
+                0x0000000000000000       0x5e build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .text._ZN6eradio14IRadioStrategy9GetInPortEv
+                0x0000000000000000       0x11 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .text._ZN6eradio14IRadioStrategyD2Ev
+                0x0000000000000000       0x77 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .text._ZN6eradio14IRadioStrategyD0Ev
+                0x0000000000000000       0x26 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .text._ZN5boost10scoped_ptrIN6eradio13CDataReceiverEEC2EPS2_
+                0x0000000000000000       0x19 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .text._ZN5boost10scoped_ptrIN6eradio13CDataReceiverEED2Ev
+                0x0000000000000000       0x42 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .text._ZN5boost10scoped_ptrIN6eradio5audio9CAudioOutEEC2EPS3_
+                0x0000000000000000       0x19 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .text._ZN5boost10scoped_ptrIN6eradio5audio9CAudioOutEED2Ev
+                0x0000000000000000       0x42 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .rodata._ZTVN6eradio14IRadioStrategyE
+                0x0000000000000000       0x40 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .rodata._ZTSN6eradio14IRadioStrategyE
+                0x0000000000000000       0x1a build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .rodata._ZTIN6eradio14IRadioStrategyE
+                0x0000000000000000       0x10 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .text._ZNK5boost11shared_baseIjE3getEv
+                0x0000000000000000       0x12 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .text._ZN11SCircBufferIjEC2EPjj
+                0x0000000000000000       0x53 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+ .group         0x0000000000000000        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o
+LOAD build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+LOAD build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+LOAD build/Debug/GNU-Linux-x86/main.o
+LOAD build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+LOAD build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+LOAD build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+LOAD build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+LOAD build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+LOAD build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+LOAD build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+LOAD build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+LOAD build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libogg.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libm.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+                0x0000000000400000                PROVIDE (__executable_start, 0x400000)
+                0x0000000000400238                . = (0x400000 + SIZEOF_HEADERS)
+
+.interp         0x0000000000400238       0x1c
+ *(.interp)
+ .interp        0x0000000000400238       0x1c /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+
+.note.ABI-tag   0x0000000000400254       0x20
+ .note.ABI-tag  0x0000000000400254       0x20 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+
+.note.gnu.build-id
+                0x0000000000400274       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000400274       0x24 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000400298       0x5c
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000400298       0x5c /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+
+.dynsym         0x00000000004002f8      0x510
+ *(.dynsym)
+ .dynsym        0x00000000004002f8      0x510 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+
+.dynstr         0x0000000000400808      0x4eb
+ *(.dynstr)
+ .dynstr        0x0000000000400808      0x4eb /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version    0x0000000000400cf4       0x6c
+ *(.gnu.version)
+ .gnu.version   0x0000000000400cf4       0x6c /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version_d  0x0000000000400d60        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version_r  0x0000000000400d60       0x90
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000400d60       0x90 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+
+.rela.dyn       0x0000000000400df0       0x60
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN5boost12shared_countC2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN5boost12shared_countD2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN5boost12shared_count6unwrapEv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNK6eradio5audio13IAudioDecoder6DecodeEv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN6eradio5audio13IAudioDecoderD2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN6eradio5audio13IAudioDecoderD0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN6eradio14IRadioStrategyC2EPKc
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN6eradio14IRadioStrategyD2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN6eradio14IRadioStrategyD0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN6eradio5audio13IAudioDecoderC2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEEC2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNK6eradio5audio13CAudioDecoderINS0_11SOggDecoderEE6DecodeEv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEED2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEED0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN5boost12shared_arrayIjEC2EPj
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN5boost12shared_arrayIjED2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN5boost12shared_arrayIjED0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN5boost12shared_arrayIjEC2ERS1_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN5boost11shared_baseIjEC2EPj
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN5boost11shared_baseIjED2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN5boost11shared_baseIjED0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN5boost12shared_arrayIjE6unwrapEv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN5boost11shared_baseIjEC2ERS1_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN6eradio16CFileInputFacadeC2ERKSt14basic_ifstreamIcSt11char_traitsIcEE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNK6eradio16CFileInputFacade6gcountEv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN6eradio16CFileInputFacadeD2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN6eradio16CFileInputFacadeD0Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEEC2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE6insertERKS7_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE4findERS6_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE3endEv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE2atERS6_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE5eraseESt17_Rb_tree_iteratorIS7_E
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE13_Rb_tree_implIS9_Lb1EED2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EEC2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EED2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE16_M_insert_uniqueERKS6_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE4findERS1_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE3endEv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE11lower_boundERS6_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNKSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE8key_compEv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE5eraseESt17_Rb_tree_iteratorIS6_E
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE13_Rb_tree_implIS9_Lb1EEC2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSaISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEED2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE8_M_eraseEPSt13_Rb_tree_nodeIS6_E
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE6_S_keyEPKSt13_Rb_tree_nodeIS6_E
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE5beginEv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE10_M_insert_EPKSt18_Rb_tree_node_baseSE_RKS6_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt17_Rb_tree_iteratorISt4pairIKjRN6eradio3tcp10CTcpClientEEEmmEv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE6_S_keyEPKSt18_Rb_tree_node_base
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS6_ESE_RS1_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE11lower_boundERS1_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE12_M_erase_auxESt23_Rb_tree_const_iteratorIS6_E
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSaISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEEC2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE15_M_destroy_nodeEPSt13_Rb_tree_nodeIS6_E
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE14_M_create_nodeERKS6_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNKSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE13get_allocatorEv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSaISt4pairIKjRN6eradio3tcp10CTcpClientEEED2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN9__gnu_cxx13new_allocatorISt4pairIKjRN6eradio3tcp10CTcpClientEEE7destroyEPS7_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE11_M_put_nodeEPSt13_Rb_tree_nodeIS6_E
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE11_M_get_nodeEv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN9__gnu_cxx13new_allocatorISt4pairIKjRN6eradio3tcp10CTcpClientEEE9constructEPS7_RKS7_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSaISt4pairIKjRN6eradio3tcp10CTcpClientEEEC2ISt13_Rb_tree_nodeIS5_EEERKSaIT_E
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEE10deallocateEPS9_m
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEE8allocateEmPKv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEED2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN6eradio3tcp10CTcpClientC2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN6eradio5audio13IAudioHwStateC2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ .rela.rodata._ZTVN6eradio5audio9CAudioOutE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTIN6eradio5audio9CAudioOutE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTVN6eradio13CFileStrategyE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTVN5boost12shared_arrayIjEE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTVN5boost11shared_baseIjEE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTVN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEEE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTVN6eradio14IRadioStrategyE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTVN6eradio5audio13IAudioDecoderE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTIN5boost12shared_arrayIjEE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTIN5boost11shared_baseIjEE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTIN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEEE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTIN6eradio13CFileStrategyE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTIN6eradio14IRadioStrategyE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTIN6eradio5audio13IAudioDecoderE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTVN6eradio16CFileInputFacadeE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTIN6eradio16CFileInputFacadeE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTVN6eradio18CShoutcastStrategyE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTIN6eradio18CShoutcastStrategyE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTVN6eradio11CHttpClientE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTIN6eradio11CHttpClientE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTVN6eradio5audio8CAudioHwE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTIN6eradio5audio8CAudioHwE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTVN6eradio13CDataReceiverE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTIN6eradio13CDataReceiverE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTVN6eradio3tcp10CTcpClientE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTIN6eradio3tcp10CTcpClientE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTVN6eradio13COggLibFacadeE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTIN6eradio13COggLibFacadeE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTVN6eradio5audio21CAudioHwNotConfiguredE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTVN6eradio5audio13IAudioHwStateE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTIN6eradio5audio21CAudioHwNotConfiguredE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .rela.rodata._ZTIN6eradio5audio13IAudioHwStateE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000400df0       0x18 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000000400e08       0x48 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.eh_frame
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+
+.rela.plt       0x0000000000400e50      0x408
+ *(.rela.plt)
+ .rela.plt      0x0000000000400e50      0x408 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000401258                PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+ .rela.iplt     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000401258                PROVIDE (__rela_iplt_end, .)
+
+.init           0x0000000000401258       0x18
+ *(.init)
+ .init          0x0000000000401258        0x9 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+                0x0000000000401258                _init
+ .init          0x0000000000401261        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o
+ .init          0x0000000000401266        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o
+ .init          0x000000000040126b        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000401270      0x2c0
+ *(.plt)
+ .plt           0x0000000000401270      0x2c0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000401280                ogg_sync_wrote
+                0x0000000000401290                _ZNKSi6gcountEv@@GLIBCXX_3.4
+                0x00000000004012a0                _Znam@@GLIBCXX_3.4
+                0x00000000004012b0                _ZdlPv@@GLIBCXX_3.4
+                0x00000000004012c0                exit@@GLIBC_2.2.5
+                0x00000000004012d0                __cxa_rethrow@@CXXABI_1.3
+                0x00000000004012e0                _ZNSt8ios_base4InitC1Ev@@GLIBCXX_3.4
+                0x00000000004012f0                oggpack_readinit
+                0x0000000000401300                __libc_start_main@@GLIBC_2.2.5
+                0x0000000000401310                _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
+                0x0000000000401320                __cxa_atexit@@GLIBC_2.2.5
+                0x0000000000401330                _ZSt20__throw_out_of_rangePKc@@GLIBCXX_3.4
+                0x0000000000401340                _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c@@GLIBCXX_3.4
+                0x0000000000401350                _ZNSt8ios_base4InitD1Ev@@GLIBCXX_3.4
+                0x0000000000401360                _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@@GLIBCXX_3.4
+                0x0000000000401370                ogg_stream_clear
+                0x0000000000401380                ogg_stream_init
+                0x0000000000401390                strrchr@@GLIBC_2.2.5
+                0x00000000004013a0                _ZNSt14basic_ifstreamIcSt11char_traitsIcEED1Ev@@GLIBCXX_3.4
+                0x00000000004013b0                ogg_stream_packetout
+                0x00000000004013c0                __cxa_pure_virtual@@CXXABI_1.3
+                0x00000000004013d0                ogg_sync_init
+                0x00000000004013e0                ogg_sync_buffer
+                0x00000000004013f0                ogg_sync_clear
+                0x0000000000401400                _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@@GLIBCXX_3.4
+                0x0000000000401410                __stack_chk_fail@@GLIBC_2.4
+                0x0000000000401420                _ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@@GLIBCXX_3.4
+                0x0000000000401430                strcpy@@GLIBC_2.2.5
+                0x0000000000401440                ogg_page_serialno
+                0x0000000000401450                ogg_sync_pageout
+                0x0000000000401460                _ZdaPv@@GLIBCXX_3.4
+                0x0000000000401470                _ZNSt14basic_ifstreamIcSt11char_traitsIcEEC1EPKcSt13_Ios_Openmode@@GLIBCXX_3.4
+                0x0000000000401480                _ZNSolsEPFRSoS_E@@GLIBCXX_3.4
+                0x0000000000401490                oggpack_read
+                0x00000000004014a0                __cxa_end_catch@@CXXABI_1.3
+                0x00000000004014b0                _ZSt17__throw_bad_allocv@@GLIBCXX_3.4
+                0x00000000004014c0                _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_@@GLIBCXX_3.4
+                0x00000000004014d0                __cxa_begin_catch@@CXXABI_1.3
+                0x00000000004014e0                __gxx_personality_v0@@CXXABI_1.3
+                0x00000000004014f0                _Znwm@@GLIBCXX_3.4
+                0x0000000000401500                _Unwind_Resume@@GCC_3.0
+                0x0000000000401510                memcpy@@GLIBC_2.14
+                0x0000000000401520                ogg_stream_pagein
+ *(.iplt)
+ .iplt          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+
+.text           0x0000000000401530     0x2fe8
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000401530       0x2c /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000401530                _start
+ .text          0x000000000040155c       0x17 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ *fill*         0x0000000000401573        0xd 90909090
+ .text          0x0000000000401580       0x92 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o
+ *fill*         0x0000000000401612        0x2 90909090
+ .text          0x0000000000401614      0x197 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+                0x0000000000401614                _ZN6eradio5audio9CAudioOutC1EPNS0_13IAudioDecoderEPNS0_8CAudioHwEN5boost12shared_arrayIjEEj
+                0x0000000000401614                _ZN6eradio5audio9CAudioOutC2EPNS0_13IAudioDecoderEPNS0_8CAudioHwEN5boost12shared_arrayIjEEj
+                0x000000000040168e                _ZN6eradio5audio9CAudioOut7ExecuteEv
+                0x00000000004016b8                _ZN6eradio5audio9CAudioOutD2Ev
+                0x00000000004016b8                _ZN6eradio5audio9CAudioOutD1Ev
+                0x0000000000401730                _ZN6eradio5audio9CAudioOutD0Ev
+ *fill*         0x00000000004017ab        0x1 90909090
+ .text._ZNK5boost11shared_baseIjE3getEv
+                0x00000000004017ac       0x12 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+                0x00000000004017ac                _ZNK5boost11shared_baseIjE3getEv
+ .text._ZN11SCircBufferIjEC2EPjj
+                0x00000000004017be       0x53 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+                0x00000000004017be                _ZN11SCircBufferIjEC1EPjj
+                0x00000000004017be                _ZN11SCircBufferIjEC2EPjj
+ *fill*         0x0000000000401811        0x1 90909090
+ .text._ZN5boost10scoped_ptrIN6eradio5audio13IAudioDecoderEEC2EPS3_
+                0x0000000000401812       0x19 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+                0x0000000000401812                _ZN5boost10scoped_ptrIN6eradio5audio13IAudioDecoderEEC2EPS3_
+                0x0000000000401812                _ZN5boost10scoped_ptrIN6eradio5audio13IAudioDecoderEEC1EPS3_
+ *fill*         0x000000000040182b        0x1 90909090
+ .text._ZN5boost10scoped_ptrIN6eradio5audio13IAudioDecoderEED2Ev
+                0x000000000040182c       0x42 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+                0x000000000040182c                _ZN5boost10scoped_ptrIN6eradio5audio13IAudioDecoderEED1Ev
+                0x000000000040182c                _ZN5boost10scoped_ptrIN6eradio5audio13IAudioDecoderEED2Ev
+ .text._ZN5boost10scoped_ptrIN6eradio5audio8CAudioHwEEC2EPS3_
+                0x000000000040186e       0x19 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+                0x000000000040186e                _ZN5boost10scoped_ptrIN6eradio5audio8CAudioHwEEC2EPS3_
+                0x000000000040186e                _ZN5boost10scoped_ptrIN6eradio5audio8CAudioHwEEC1EPS3_
+ *fill*         0x0000000000401887        0x1 90909090
+ .text._ZN5boost10scoped_ptrIN6eradio5audio8CAudioHwEED2Ev
+                0x0000000000401888       0x42 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+                0x0000000000401888                _ZN5boost10scoped_ptrIN6eradio5audio8CAudioHwEED1Ev
+                0x0000000000401888                _ZN5boost10scoped_ptrIN6eradio5audio8CAudioHwEED2Ev
+ .text._ZNK5boost10scoped_ptrIN6eradio5audio13IAudioDecoderEEptEv
+                0x00000000004018ca       0x11 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+                0x00000000004018ca                _ZNK5boost10scoped_ptrIN6eradio5audio13IAudioDecoderEEptEv
+ *fill*         0x00000000004018db        0x1 90909090
+ .text          0x00000000004018dc      0x469 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x00000000004018dc                _ZN6eradio5audio12BuildDecoderEPKc
+                0x0000000000401908                _ZN6eradio13CFileStrategyC2ERNS_3tcp10CTcpServerEPKc
+                0x0000000000401908                _ZN6eradio13CFileStrategyC1ERNS_3tcp10CTcpServerEPKc
+                0x0000000000401bc4                _ZN6eradio13CFileStrategy4PlayEv
+                0x0000000000401c06                _ZN6eradio13CFileStrategy5PauseEv
+                0x0000000000401c30                _ZN6eradio13CFileStrategy4StopEv
+                0x0000000000401c5a                _ZN6eradio13CFileStrategyD2Ev
+                0x0000000000401c5a                _ZN6eradio13CFileStrategyD1Ev
+                0x0000000000401cca                _ZN6eradio13CFileStrategyD0Ev
+ *fill*         0x0000000000401d45        0x1 90909090
+ .text._ZN5boost12shared_countC2Ev
+                0x0000000000401d46       0x2f build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401d46                _ZN5boost12shared_countC2Ev
+                0x0000000000401d46                _ZN5boost12shared_countC1Ev
+ *fill*         0x0000000000401d75        0x1 90909090
+ .text._ZN5boost12shared_countC2ERKS0_
+                0x0000000000401d76       0x2a build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401d76                _ZN5boost12shared_countC2ERKS0_
+                0x0000000000401d76                _ZN5boost12shared_countC1ERKS0_
+ .text._ZN5boost12shared_countmmEv
+                0x0000000000401da0       0x1c build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401da0                _ZN5boost12shared_countmmEv
+ .text._ZNK5boost12shared_count9use_countEv
+                0x0000000000401dbc       0x13 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401dbc                _ZNK5boost12shared_count9use_countEv
+ *fill*         0x0000000000401dcf        0x1 90909090
+ .text._ZN5boost12shared_countD2Ev
+                0x0000000000401dd0       0x1a build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401dd0                _ZN5boost12shared_countD2Ev
+                0x0000000000401dd0                _ZN5boost12shared_countD1Ev
+ .text._ZN5boost12shared_count6unwrapEv
+                0x0000000000401dea       0x35 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401dea                _ZN5boost12shared_count6unwrapEv
+ *fill*         0x0000000000401e1f        0x1 90909090
+ .text._ZNK6eradio5audio13IAudioDecoder6DecodeEv
+                0x0000000000401e20       0x2a build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401e20                _ZNK6eradio5audio13IAudioDecoder6DecodeEv
+ .text._ZN6eradio5audio13IAudioDecoderD2Ev
+                0x0000000000401e4a       0x31 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401e4a                _ZN6eradio5audio13IAudioDecoderD2Ev
+                0x0000000000401e4a                _ZN6eradio5audio13IAudioDecoderD1Ev
+ *fill*         0x0000000000401e7b        0x1 90909090
+ .text._ZN6eradio5audio13IAudioDecoderD0Ev
+                0x0000000000401e7c       0x26 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401e7c                _ZN6eradio5audio13IAudioDecoderD0Ev
+ .text._ZN6eradio14IRadioStrategyC2EPKc
+                0x0000000000401ea2       0x5e build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401ea2                _ZN6eradio14IRadioStrategyC2EPKc
+                0x0000000000401ea2                _ZN6eradio14IRadioStrategyC1EPKc
+ .text._ZN6eradio14IRadioStrategy9GetInPortEv
+                0x0000000000401f00       0x11 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401f00                _ZN6eradio14IRadioStrategy9GetInPortEv
+ *fill*         0x0000000000401f11        0x1 90909090
+ .text._ZN6eradio14IRadioStrategyD2Ev
+                0x0000000000401f12       0x77 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401f12                _ZN6eradio14IRadioStrategyD2Ev
+                0x0000000000401f12                _ZN6eradio14IRadioStrategyD1Ev
+ *fill*         0x0000000000401f89        0x1 90909090
+ .text._ZN6eradio14IRadioStrategyD0Ev
+                0x0000000000401f8a       0x26 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401f8a                _ZN6eradio14IRadioStrategyD0Ev
+ .text._ZN6eradio13CFileStrategy9GetInPortEv
+                0x0000000000401fb0        0xf build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401fb0                _ZN6eradio13CFileStrategy9GetInPortEv
+ *fill*         0x0000000000401fbf        0x1 90909090
+ .text._ZN6eradio5audio13IAudioDecoderC2Ev
+                0x0000000000401fc0       0x15 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401fc0                _ZN6eradio5audio13IAudioDecoderC1Ev
+                0x0000000000401fc0                _ZN6eradio5audio13IAudioDecoderC2Ev
+ *fill*         0x0000000000401fd5        0x1 90909090
+ .text._ZN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEEC2Ev
+                0x0000000000401fd6       0x25 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401fd6                _ZN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEEC2Ev
+                0x0000000000401fd6                _ZN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEEC1Ev
+ *fill*         0x0000000000401ffb        0x1 90909090
+ .text._ZNK6eradio5audio13CAudioDecoderINS0_11SOggDecoderEE6DecodeEv
+                0x0000000000401ffc       0x2a build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000401ffc                _ZNK6eradio5audio13CAudioDecoderINS0_11SOggDecoderEE6DecodeEv
+ .text._ZN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEED2Ev
+                0x0000000000402026       0x3d build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000402026                _ZN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEED1Ev
+                0x0000000000402026                _ZN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEED2Ev
+ *fill*         0x0000000000402063        0x1 90909090
+ .text._ZN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEED0Ev
+                0x0000000000402064       0x26 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000402064                _ZN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEED0Ev
+ .text._ZN5boost10scoped_ptrIN6eradio13CDataReceiverEEC2EPS2_
+                0x000000000040208a       0x19 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x000000000040208a                _ZN5boost10scoped_ptrIN6eradio13CDataReceiverEEC1EPS2_
+                0x000000000040208a                _ZN5boost10scoped_ptrIN6eradio13CDataReceiverEEC2EPS2_
+ *fill*         0x00000000004020a3        0x1 90909090
+ .text._ZN5boost10scoped_ptrIN6eradio13CDataReceiverEED2Ev
+                0x00000000004020a4       0x42 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x00000000004020a4                _ZN5boost10scoped_ptrIN6eradio13CDataReceiverEED2Ev
+                0x00000000004020a4                _ZN5boost10scoped_ptrIN6eradio13CDataReceiverEED1Ev
+ .text._ZN5boost10scoped_ptrIN6eradio5audio9CAudioOutEEC2EPS3_
+                0x00000000004020e6       0x19 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x00000000004020e6                _ZN5boost10scoped_ptrIN6eradio5audio9CAudioOutEEC1EPS3_
+                0x00000000004020e6                _ZN5boost10scoped_ptrIN6eradio5audio9CAudioOutEEC2EPS3_
+ *fill*         0x00000000004020ff        0x1 90909090
+ .text._ZN5boost10scoped_ptrIN6eradio5audio9CAudioOutEED2Ev
+                0x0000000000402100       0x42 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000402100                _ZN5boost10scoped_ptrIN6eradio5audio9CAudioOutEED1Ev
+                0x0000000000402100                _ZN5boost10scoped_ptrIN6eradio5audio9CAudioOutEED2Ev
+ .text._ZN5boost10scoped_ptrISt14basic_ifstreamIcSt11char_traitsIcEEEC2EPS4_
+                0x0000000000402142       0x19 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000402142                _ZN5boost10scoped_ptrISt14basic_ifstreamIcSt11char_traitsIcEEEC2EPS4_
+                0x0000000000402142                _ZN5boost10scoped_ptrISt14basic_ifstreamIcSt11char_traitsIcEEEC1EPS4_
+ *fill*         0x000000000040215b        0x1 90909090
+ .text._ZN5boost10scoped_ptrISt14basic_ifstreamIcSt11char_traitsIcEEED2Ev
+                0x000000000040215c       0x42 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x000000000040215c                _ZN5boost10scoped_ptrISt14basic_ifstreamIcSt11char_traitsIcEEED2Ev
+                0x000000000040215c                _ZN5boost10scoped_ptrISt14basic_ifstreamIcSt11char_traitsIcEEED1Ev
+ .text._ZN5boost12shared_arrayIjEC2EPj
+                0x000000000040219e       0x30 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x000000000040219e                _ZN5boost12shared_arrayIjEC1EPj
+                0x000000000040219e                _ZN5boost12shared_arrayIjEC2EPj
+ .text._ZN5boost12shared_arrayIjED2Ev
+                0x00000000004021ce       0x49 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x00000000004021ce                _ZN5boost12shared_arrayIjED2Ev
+                0x00000000004021ce                _ZN5boost12shared_arrayIjED1Ev
+ *fill*         0x0000000000402217        0x1 90909090
+ .text._ZN5boost12shared_arrayIjED0Ev
+                0x0000000000402218       0x26 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000402218                _ZN5boost12shared_arrayIjED0Ev
+ .text._ZN5boost12shared_arrayIjEC2ERS1_
+                0x000000000040223e       0x30 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x000000000040223e                _ZN5boost12shared_arrayIjEC2ERS1_
+                0x000000000040223e                _ZN5boost12shared_arrayIjEC1ERS1_
+ .text._ZN5boost10scoped_ptrIN6eradio13CDataReceiverEE5resetEPS2_
+                0x000000000040226e       0x46 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x000000000040226e                _ZN5boost10scoped_ptrIN6eradio13CDataReceiverEE5resetEPS2_
+ .text._ZN5boost10scoped_ptrIN6eradio5audio9CAudioOutEE5resetEPS3_
+                0x00000000004022b4       0x46 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x00000000004022b4                _ZN5boost10scoped_ptrIN6eradio5audio9CAudioOutEE5resetEPS3_
+ .text._ZNK5boost10scoped_ptrIN6eradio5audio9CAudioOutEEptEv
+                0x00000000004022fa       0x11 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x00000000004022fa                _ZNK5boost10scoped_ptrIN6eradio5audio9CAudioOutEEptEv
+ *fill*         0x000000000040230b        0x1 90909090
+ .text._ZN5boost11shared_baseIjEC2EPj
+                0x000000000040230c       0x39 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x000000000040230c                _ZN5boost11shared_baseIjEC2EPj
+                0x000000000040230c                _ZN5boost11shared_baseIjEC1EPj
+ *fill*         0x0000000000402345        0x1 90909090
+ .text._ZN5boost11shared_baseIjED2Ev
+                0x0000000000402346       0x41 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000402346                _ZN5boost11shared_baseIjED1Ev
+                0x0000000000402346                _ZN5boost11shared_baseIjED2Ev
+ *fill*         0x0000000000402387        0x1 90909090
+ .text._ZN5boost11shared_baseIjED0Ev
+                0x0000000000402388       0x26 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000402388                _ZN5boost11shared_baseIjED0Ev
+ .text._ZN5boost12shared_arrayIjE6unwrapEv
+                0x00000000004023ae       0x65 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x00000000004023ae                _ZN5boost12shared_arrayIjE6unwrapEv
+ *fill*         0x0000000000402413        0x1 90909090
+ .text._ZN5boost11shared_baseIjEC2ERS1_
+                0x0000000000402414       0x4c build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000402414                _ZN5boost11shared_baseIjEC1ERS1_
+                0x0000000000402414                _ZN5boost11shared_baseIjEC2ERS1_
+ .text          0x0000000000402460      0x2cf build/Debug/GNU-Linux-x86/main.o
+                0x0000000000402460                main
+ *fill*         0x000000000040272f        0x1 90909090
+ .text._ZN6eradio16CFileInputFacadeC2ERKSt14basic_ifstreamIcSt11char_traitsIcEE
+                0x0000000000402730       0x25 build/Debug/GNU-Linux-x86/main.o
+                0x0000000000402730                _ZN6eradio16CFileInputFacadeC2ERKSt14basic_ifstreamIcSt11char_traitsIcEE
+                0x0000000000402730                _ZN6eradio16CFileInputFacadeC1ERKSt14basic_ifstreamIcSt11char_traitsIcEE
+ *fill*         0x0000000000402755        0x1 90909090
+ .text._ZNK6eradio16CFileInputFacade4readEPcj
+                0x0000000000402756       0x37 build/Debug/GNU-Linux-x86/main.o
+                0x0000000000402756                _ZNK6eradio16CFileInputFacade4readEPcj
+ *fill*         0x000000000040278d        0x1 90909090
+ .text._ZNK6eradio16CFileInputFacade6gcountEv
+                0x000000000040278e       0x1e build/Debug/GNU-Linux-x86/main.o
+                0x000000000040278e                _ZNK6eradio16CFileInputFacade6gcountEv
+ .text._ZN6eradio16CFileInputFacadeD2Ev
+                0x00000000004027ac       0x31 build/Debug/GNU-Linux-x86/main.o
+                0x00000000004027ac                _ZN6eradio16CFileInputFacadeD2Ev
+                0x00000000004027ac                _ZN6eradio16CFileInputFacadeD1Ev
+ *fill*         0x00000000004027dd        0x1 90909090
+ .text._ZN6eradio16CFileInputFacadeD0Ev
+                0x00000000004027de       0x26 build/Debug/GNU-Linux-x86/main.o
+                0x00000000004027de                _ZN6eradio16CFileInputFacadeD0Ev
+ .text          0x0000000000402804       0xf9 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+                0x0000000000402804                _ZN6eradio18CShoutcastStrategyC2ERNS_11CHttpClientEPKc
+                0x0000000000402804                _ZN6eradio18CShoutcastStrategyC1ERNS_11CHttpClientEPKc
+                0x0000000000402844                _ZN6eradio18CShoutcastStrategyD1Ev
+                0x0000000000402844                _ZN6eradio18CShoutcastStrategyD2Ev
+                0x0000000000402882                _ZN6eradio18CShoutcastStrategyD0Ev
+ *fill*         0x00000000004028fd        0x3 90909090
+ .text          0x0000000000402900      0x1bb build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402900                _ZN6eradio3tcp10CTcpServer14RegisterClientERNS0_10CTcpClientE
+                0x0000000000402978                _ZN6eradio3tcp10CTcpServer10CallClientEjPjj
+                0x00000000004029fa                _ZN6eradio3tcp10CTcpServer16DeregisterClientERNS0_10CTcpClientE
+ .text._ZnwmPv  0x0000000000402abb       0x12 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402abb                _ZnwmPv
+ *fill*         0x0000000000402acd        0x1 90909090
+ .text._ZN6eradio3tcp11SClientCompclERKjS3_
+                0x0000000000402ace       0x23 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402ace                _ZN6eradio3tcp11SClientCompclERKjS3_
+ *fill*         0x0000000000402af1        0x1 90909090
+ .text._ZNK6eradio3tcp10CTcpClient7GetPortEv
+                0x0000000000402af2       0x11 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402af2                _ZNK6eradio3tcp10CTcpClient7GetPortEv
+ *fill*         0x0000000000402b03        0x1 90909090
+ .text._ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEEC2Ev
+                0x0000000000402b04       0x1a build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402b04                _ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEEC1Ev
+                0x0000000000402b04                _ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEEC2Ev
+ .text._ZNSt4pairIjRN6eradio3tcp10CTcpClientEEC2ERKjS3_
+                0x0000000000402b1e       0x2a build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402b1e                _ZNSt4pairIjRN6eradio3tcp10CTcpClientEEC1ERKjS3_
+                0x0000000000402b1e                _ZNSt4pairIjRN6eradio3tcp10CTcpClientEEC2ERKjS3_
+ .text._ZNSt4pairIKjRN6eradio3tcp10CTcpClientEEC2IjS4_EERKS_IT_T0_E
+                0x0000000000402b48       0x2a build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402b48                _ZNSt4pairIKjRN6eradio3tcp10CTcpClientEEC2IjS4_EERKS_IT_T0_E
+                0x0000000000402b48                _ZNSt4pairIKjRN6eradio3tcp10CTcpClientEEC1IjS4_EERKS_IT_T0_E
+ .text._ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE6insertERKS7_
+                0x0000000000402b72       0x48 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402b72                _ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE6insertERKS7_
+ .text._ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE4findERS6_
+                0x0000000000402bba       0x25 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402bba                _ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE4findERS6_
+ *fill*         0x0000000000402bdf        0x1 90909090
+ .text._ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE3endEv
+                0x0000000000402be0       0x1a build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402be0                _ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE3endEv
+ .text._ZNKSt17_Rb_tree_iteratorISt4pairIKjRN6eradio3tcp10CTcpClientEEEneERKS7_
+                0x0000000000402bfa       0x22 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402bfa                _ZNKSt17_Rb_tree_iteratorISt4pairIKjRN6eradio3tcp10CTcpClientEEEneERKS7_
+ .text._ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE2atERS6_
+                0x0000000000402c1c       0xb5 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402c1c                _ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE2atERS6_
+ *fill*         0x0000000000402cd1        0x1 90909090
+ .text._ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE5eraseESt17_Rb_tree_iteratorIS7_E
+                0x0000000000402cd2       0x25 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402cd2                _ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE5eraseESt17_Rb_tree_iteratorIS7_E
+ *fill*         0x0000000000402cf7        0x1 90909090
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE13_Rb_tree_implIS9_Lb1EED2Ev
+                0x0000000000402cf8       0x1a build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402cf8                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE13_Rb_tree_implIS9_Lb1EED1Ev
+                0x0000000000402cf8                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE13_Rb_tree_implIS9_Lb1EED2Ev
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EEC2Ev
+                0x0000000000402d12       0x1a build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402d12                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EEC2Ev
+                0x0000000000402d12                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EEC1Ev
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EED2Ev
+                0x0000000000402d2c       0x58 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402d2c                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EED1Ev
+                0x0000000000402d2c                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EED2Ev
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE16_M_insert_uniqueERKS6_
+                0x0000000000402d84      0x241 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402d84                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE16_M_insert_uniqueERKS6_
+ *fill*         0x0000000000402fc5        0x1 90909090
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE4findERS1_
+                0x0000000000402fc6       0xaf build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000402fc6                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE4findERS1_
+ *fill*         0x0000000000403075        0x1 90909090
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE3endEv
+                0x0000000000403076       0x29 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403076                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE3endEv
+ *fill*         0x000000000040309f        0x1 90909090
+ .text._ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE11lower_boundERS6_
+                0x00000000004030a0       0x25 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004030a0                _ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE11lower_boundERS6_
+ *fill*         0x00000000004030c5        0x1 90909090
+ .text._ZNKSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE8key_compEv
+                0x00000000004030c6       0x22 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004030c6                _ZNKSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEE8key_compEv
+ .text._ZNKSt17_Rb_tree_iteratorISt4pairIKjRN6eradio3tcp10CTcpClientEEEdeEv
+                0x00000000004030e8       0x15 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004030e8                _ZNKSt17_Rb_tree_iteratorISt4pairIKjRN6eradio3tcp10CTcpClientEEEdeEv
+ *fill*         0x00000000004030fd        0x1 90909090
+ .text._ZNKSt17_Rb_tree_iteratorISt4pairIKjRN6eradio3tcp10CTcpClientEEEeqERKS7_
+                0x00000000004030fe       0x22 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004030fe                _ZNKSt17_Rb_tree_iteratorISt4pairIKjRN6eradio3tcp10CTcpClientEEEeqERKS7_
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE5eraseESt17_Rb_tree_iteratorIS6_E
+                0x0000000000403120       0x38 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403120                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE5eraseESt17_Rb_tree_iteratorIS6_E
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE13_Rb_tree_implIS9_Lb1EEC2Ev
+                0x0000000000403158       0x61 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403158                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE13_Rb_tree_implIS9_Lb1EEC2Ev
+                0x0000000000403158                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE13_Rb_tree_implIS9_Lb1EEC1Ev
+ *fill*         0x00000000004031b9        0x1 90909090
+ .text._ZNSaISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEED2Ev
+                0x00000000004031ba       0x1a build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004031ba                _ZNSaISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEED2Ev
+                0x00000000004031ba                _ZNSaISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEED1Ev
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE8_M_eraseEPSt13_Rb_tree_nodeIS6_E
+                0x00000000004031d4       0x69 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004031d4                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE8_M_eraseEPSt13_Rb_tree_nodeIS6_E
+ *fill*         0x000000000040323d        0x1 90909090
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE8_M_beginEv
+                0x000000000040323e       0x12 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x000000000040323e                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE8_M_beginEv
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE6_M_endEv
+                0x0000000000403250       0x12 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403250                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE6_M_endEv
+ .text._ZNKSt10_Select1stISt4pairIKjRN6eradio3tcp10CTcpClientEEEclERKS6_
+                0x0000000000403262       0x12 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403262                _ZNKSt10_Select1stISt4pairIKjRN6eradio3tcp10CTcpClientEEEclERKS6_
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE6_S_keyEPKSt13_Rb_tree_nodeIS6_E
+                0x0000000000403274       0x2c build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403274                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE6_S_keyEPKSt13_Rb_tree_nodeIS6_E
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE8_S_rightEPSt18_Rb_tree_node_base
+                0x00000000004032a0       0x12 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004032a0                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE8_S_rightEPSt18_Rb_tree_node_base
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE7_S_leftEPSt18_Rb_tree_node_base
+                0x00000000004032b2       0x12 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004032b2                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE7_S_leftEPSt18_Rb_tree_node_base
+ .text._ZNSt17_Rb_tree_iteratorISt4pairIKjRN6eradio3tcp10CTcpClientEEEC2EPSt13_Rb_tree_nodeIS6_E
+                0x00000000004032c4       0x19 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004032c4                _ZNSt17_Rb_tree_iteratorISt4pairIKjRN6eradio3tcp10CTcpClientEEEC1EPSt13_Rb_tree_nodeIS6_E
+                0x00000000004032c4                _ZNSt17_Rb_tree_iteratorISt4pairIKjRN6eradio3tcp10CTcpClientEEEC2EPSt13_Rb_tree_nodeIS6_E
+ *fill*         0x00000000004032dd        0x1 90909090
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE5beginEv
+                0x00000000004032de       0x29 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004032de                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE5beginEv
+ *fill*         0x0000000000403307        0x1 90909090
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE10_M_insert_EPKSt18_Rb_tree_node_baseSE_RKS6_
+                0x0000000000403308       0xe0 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403308                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE10_M_insert_EPKSt18_Rb_tree_node_baseSE_RKS6_
+ .text._ZNSt4pairISt17_Rb_tree_iteratorIS_IKjRN6eradio3tcp10CTcpClientEEEbEC2ERKS7_RKb
+                0x00000000004033e8       0x2e build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004033e8                _ZNSt4pairISt17_Rb_tree_iteratorIS_IKjRN6eradio3tcp10CTcpClientEEEbEC1ERKS7_RKb
+                0x00000000004033e8                _ZNSt4pairISt17_Rb_tree_iteratorIS_IKjRN6eradio3tcp10CTcpClientEEEbEC2ERKS7_RKb
+ .text._ZNSt17_Rb_tree_iteratorISt4pairIKjRN6eradio3tcp10CTcpClientEEEmmEv
+                0x0000000000403416       0x28 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403416                _ZNSt17_Rb_tree_iteratorISt4pairIKjRN6eradio3tcp10CTcpClientEEEmmEv
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE6_S_keyEPKSt18_Rb_tree_node_base
+                0x000000000040343e       0x2c build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x000000000040343e                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE6_S_keyEPKSt18_Rb_tree_node_base
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS6_ESE_RS1_
+                0x000000000040346a       0x92 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x000000000040346a                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS6_ESE_RS1_
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE11lower_boundERS1_
+                0x00000000004034fc       0x4c build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004034fc                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE11lower_boundERS1_
+ .text._ZNKSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE8key_compEv
+                0x0000000000403548        0xa build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403548                _ZNKSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE8key_compEv
+ .text._ZNSt23_Rb_tree_const_iteratorISt4pairIKjRN6eradio3tcp10CTcpClientEEEC2ERKSt17_Rb_tree_iteratorIS6_E
+                0x0000000000403552       0x1c build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403552                _ZNSt23_Rb_tree_const_iteratorISt4pairIKjRN6eradio3tcp10CTcpClientEEEC2ERKSt17_Rb_tree_iteratorIS6_E
+                0x0000000000403552                _ZNSt23_Rb_tree_const_iteratorISt4pairIKjRN6eradio3tcp10CTcpClientEEEC1ERKSt17_Rb_tree_iteratorIS6_E
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE12_M_erase_auxESt23_Rb_tree_const_iteratorIS6_E
+                0x000000000040356e       0x54 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x000000000040356e                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE12_M_erase_auxESt23_Rb_tree_const_iteratorIS6_E
+ .text._ZNSaISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEEC2Ev
+                0x00000000004035c2       0x1a build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004035c2                _ZNSaISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEEC1Ev
+                0x00000000004035c2                _ZNSaISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEEC2Ev
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE13_Rb_tree_implIS9_Lb1EE13_M_initializeEv
+                0x00000000004035dc       0x41 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004035dc                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE13_Rb_tree_implIS9_Lb1EE13_M_initializeEv
+ *fill*         0x000000000040361d        0x1 90909090
+ .text._ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEED2Ev
+                0x000000000040361e        0xa build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x000000000040361e                _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEED1Ev
+                0x000000000040361e                _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEED2Ev
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE15_M_destroy_nodeEPSt13_Rb_tree_nodeIS6_E
+                0x0000000000403628       0x6c build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403628                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE15_M_destroy_nodeEPSt13_Rb_tree_nodeIS6_E
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE8_S_valueEPKSt13_Rb_tree_nodeIS6_E
+                0x0000000000403694       0x12 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403694                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE8_S_valueEPKSt13_Rb_tree_nodeIS6_E
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE14_M_create_nodeERKS6_
+                0x00000000004036a6       0xa4 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004036a6                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE14_M_create_nodeERKS6_
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE8_S_valueEPKSt18_Rb_tree_node_base
+                0x000000000040374a       0x12 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x000000000040374a                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE8_S_valueEPKSt18_Rb_tree_node_base
+ .text._ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEEC2Ev
+                0x000000000040375c        0xa build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x000000000040375c                _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEEC1Ev
+                0x000000000040375c                _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEEC2Ev
+ .text._ZNKSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE13get_allocatorEv
+                0x0000000000403766       0x34 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403766                _ZNKSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE13get_allocatorEv
+ .text._ZNSaISt4pairIKjRN6eradio3tcp10CTcpClientEEED2Ev
+                0x000000000040379a       0x1a build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x000000000040379a                _ZNSaISt4pairIKjRN6eradio3tcp10CTcpClientEEED2Ev
+                0x000000000040379a                _ZNSaISt4pairIKjRN6eradio3tcp10CTcpClientEEED1Ev
+ .text._ZSt11__addressofISt4pairIKjRN6eradio3tcp10CTcpClientEEEPT_RS7_
+                0x00000000004037b4        0xe build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004037b4                _ZSt11__addressofISt4pairIKjRN6eradio3tcp10CTcpClientEEEPT_RS7_
+ .text._ZNSt4pairIKjRN6eradio3tcp10CTcpClientEED2Ev
+                0x00000000004037c2        0xa build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004037c2                _ZNSt4pairIKjRN6eradio3tcp10CTcpClientEED2Ev
+                0x00000000004037c2                _ZNSt4pairIKjRN6eradio3tcp10CTcpClientEED1Ev
+ .text._ZN9__gnu_cxx13new_allocatorISt4pairIKjRN6eradio3tcp10CTcpClientEEE7destroyEPS7_
+                0x00000000004037cc       0x1e build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004037cc                _ZN9__gnu_cxx13new_allocatorISt4pairIKjRN6eradio3tcp10CTcpClientEEE7destroyEPS7_
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE11_M_put_nodeEPSt13_Rb_tree_nodeIS6_E
+                0x00000000004037ea       0x2a build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004037ea                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE11_M_put_nodeEPSt13_Rb_tree_nodeIS6_E
+ .text._ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE11_M_get_nodeEv
+                0x0000000000403814       0x24 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403814                _ZNSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE11_M_get_nodeEv
+ .text._ZN9__gnu_cxx13new_allocatorISt4pairIKjRN6eradio3tcp10CTcpClientEEE9constructEPS7_RKS7_
+                0x0000000000403838       0x3e build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403838                _ZN9__gnu_cxx13new_allocatorISt4pairIKjRN6eradio3tcp10CTcpClientEEE9constructEPS7_RKS7_
+ .text._ZNKSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE21_M_get_Node_allocatorEv
+                0x0000000000403876        0xe build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403876                _ZNKSt8_Rb_treeIjSt4pairIKjRN6eradio3tcp10CTcpClientEESt10_Select1stIS6_ENS3_11SClientCompESaIS6_EE21_M_get_Node_allocatorEv
+ .text._ZNSaISt4pairIKjRN6eradio3tcp10CTcpClientEEEC2ISt13_Rb_tree_nodeIS5_EEERKSaIT_E
+                0x0000000000403884       0x1e build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403884                _ZNSaISt4pairIKjRN6eradio3tcp10CTcpClientEEEC2ISt13_Rb_tree_nodeIS5_EEERKSaIT_E
+                0x0000000000403884                _ZNSaISt4pairIKjRN6eradio3tcp10CTcpClientEEEC1ISt13_Rb_tree_nodeIS5_EEERKSaIT_E
+ .text._ZN9__gnu_cxx13new_allocatorISt4pairIKjRN6eradio3tcp10CTcpClientEEED2Ev
+                0x00000000004038a2        0xa build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004038a2                _ZN9__gnu_cxx13new_allocatorISt4pairIKjRN6eradio3tcp10CTcpClientEEED1Ev
+                0x00000000004038a2                _ZN9__gnu_cxx13new_allocatorISt4pairIKjRN6eradio3tcp10CTcpClientEEED2Ev
+ .text._ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEE10deallocateEPS9_m
+                0x00000000004038ac       0x22 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004038ac                _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEE10deallocateEPS9_m
+ .text._ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEE8allocateEmPKv
+                0x00000000004038ce       0x4b build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x00000000004038ce                _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEE8allocateEmPKv
+ *fill*         0x0000000000403919        0x1 90909090
+ .text._ZN9__gnu_cxx13new_allocatorISt4pairIKjRN6eradio3tcp10CTcpClientEEEC2Ev
+                0x000000000040391a        0xa build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x000000000040391a                _ZN9__gnu_cxx13new_allocatorISt4pairIKjRN6eradio3tcp10CTcpClientEEEC1Ev
+                0x000000000040391a                _ZN9__gnu_cxx13new_allocatorISt4pairIKjRN6eradio3tcp10CTcpClientEEEC2Ev
+ .text._ZNK9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEE8max_sizeEv
+                0x0000000000403924       0x14 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403924                _ZNK9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKjRN6eradio3tcp10CTcpClientEEEE8max_sizeEv
+ .text._ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEED2Ev
+                0x0000000000403938       0x1a build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000403938                _ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEED2Ev
+                0x0000000000403938                _ZNSt3mapIjRN6eradio3tcp10CTcpClientENS1_11SClientCompESaISt4pairIKjS3_EEED1Ev
+ *fill*         0x0000000000403952        0x2 90909090
+ .text          0x0000000000403954       0xd2 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+                0x0000000000403954                _ZN6eradio11CHttpClientC1EPKcRNS_3tcp10CTcpServerE
+                0x0000000000403954                _ZN6eradio11CHttpClientC2EPKcRNS_3tcp10CTcpServerE
+                0x00000000004039c2                _ZN6eradio11CHttpClientD1Ev
+                0x00000000004039c2                _ZN6eradio11CHttpClientD2Ev
+                0x0000000000403a00                _ZN6eradio11CHttpClientD0Ev
+ *fill*         0x0000000000403a26        0x2 90909090
+ .text          0x0000000000403a28       0xae build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+                0x0000000000403a28                _ZN6eradio5audio8CAudioHwC1Ev
+                0x0000000000403a28                _ZN6eradio5audio8CAudioHwC2Ev
+                0x0000000000403a7e                _ZN6eradio5audio8CAudioHwD2Ev
+                0x0000000000403a7e                _ZN6eradio5audio8CAudioHwD1Ev
+                0x0000000000403ab0                _ZN6eradio5audio8CAudioHwD0Ev
+ *fill*         0x0000000000403ad6        0x2 90909090
+ .text          0x0000000000403ad8      0x10e build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+                0x0000000000403ad8                _ZN6eradio13CDataReceiverC2ERNS_3tcp10CTcpServerEN5boost12shared_arrayIjEEj
+                0x0000000000403ad8                _ZN6eradio13CDataReceiverC1ERNS_3tcp10CTcpServerEN5boost12shared_arrayIjEEj
+                0x0000000000403b6c                _ZN6eradio13CDataReceiver7ReceiveEPjj
+                0x0000000000403b82                _ZN6eradio13CDataReceiverD2Ev
+                0x0000000000403b82                _ZN6eradio13CDataReceiverD1Ev
+                0x0000000000403bc0                _ZN6eradio13CDataReceiverD0Ev
+ .text._ZN6eradio3tcp10CTcpClientC2Ev
+                0x0000000000403be6       0x15 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+                0x0000000000403be6                _ZN6eradio3tcp10CTcpClientC2Ev
+                0x0000000000403be6                _ZN6eradio3tcp10CTcpClientC1Ev
+ *fill*         0x0000000000403bfb        0x1 90909090
+ .text          0x0000000000403bfc       0x9c build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+                0x0000000000403bfc                _ZN6eradio3tcp10CTcpClientC2EPKcj
+                0x0000000000403bfc                _ZN6eradio3tcp10CTcpClientC1EPKcj
+                0x0000000000403c2e                _ZN6eradio3tcp10CTcpClient4sendEPjj
+                0x0000000000403c40                _ZN6eradio3tcp10CTcpClientD2Ev
+                0x0000000000403c40                _ZN6eradio3tcp10CTcpClientD1Ev
+                0x0000000000403c72                _ZN6eradio3tcp10CTcpClientD0Ev
+ .text          0x0000000000403c98      0x407 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+                0x0000000000403c98                _ZN6eradio13COggContainerC2ERNS_16CFileInputFacadeERNS_13COggLibFacadeE
+                0x0000000000403c98                _ZN6eradio13COggContainerC1ERNS_16CFileInputFacadeERNS_13COggLibFacadeE
+                0x0000000000403d30                _ZN6eradio13COggContainer10GetPayloadEPcj
+                0x0000000000403e06                _ZN6eradio13COggContainer9ReadInputEv
+                0x0000000000403e8a                _ZN6eradio13COggContainer7GetPageEv
+                0x0000000000403f62                _ZN6eradio13COggContainer9GetPacketEv
+                0x0000000000404040                _ZN6eradio13COggContainerD1Ev
+                0x0000000000404040                _ZN6eradio13COggContainerD2Ev
+ *fill*         0x000000000040409f        0x1 90909090
+ .text._ZN6eradio13COggContainer18GetBytesFromPacketEPc
+                0x00000000004040a0       0x76 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+                0x00000000004040a0                _ZN6eradio13COggContainer18GetBytesFromPacketEPc
+ *fill*         0x0000000000404116        0x2 90909090
+ .text          0x0000000000404118      0x266 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+                0x0000000000404118                _ZN6eradio13COggLibFacadeC1Ev
+                0x0000000000404118                _ZN6eradio13COggLibFacadeC2Ev
+                0x0000000000404142                _ZN6eradio13COggLibFacadeC1ERKS0_
+                0x0000000000404142                _ZN6eradio13COggLibFacadeC2ERKS0_
+                0x0000000000404184                _ZN6eradio13COggLibFacade14AllocateBufferEj
+                0x00000000004041ac                _ZN6eradio13COggLibFacade9SyncWroteEj
+                0x00000000004041d4                _ZN6eradio13COggLibFacade7GetPageEv
+                0x0000000000404200                _ZN6eradio13COggLibFacade10InitStreamEv
+                0x0000000000404232                _ZN6eradio13COggLibFacade12Page2PacketsEv
+                0x000000000040425e                _ZN6eradio13COggLibFacade9GetPacketEv
+                0x000000000040428a                _ZN6eradio13COggLibFacade8InitReadEv
+                0x00000000004042c6                _ZN6eradio13COggLibFacade10ReadPacketEj
+                0x00000000004042f0                _ZN6eradio13COggLibFacade19GetPacketBytesCountEv
+                0x0000000000404306                _ZN6eradio13COggLibFacadeD1Ev
+                0x0000000000404306                _ZN6eradio13COggLibFacadeD2Ev
+                0x0000000000404358                _ZN6eradio13COggLibFacadeD0Ev
+ *fill*         0x000000000040437e        0x2 90909090
+ .text          0x0000000000404380       0xa4 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+                0x0000000000404380                _ZN6eradio5audio21CAudioHwNotConfiguredC1Ev
+                0x0000000000404380                _ZN6eradio5audio21CAudioHwNotConfiguredC2Ev
+                0x00000000004043a6                _ZN6eradio5audio21CAudioHwNotConfigured9ConfigureEv
+                0x00000000004043b0                _ZN6eradio5audio21CAudioHwNotConfigured4PlayEPjj
+                0x00000000004043c2                _ZN6eradio5audio21CAudioHwNotConfigured11DeconfigureEv
+                0x00000000004043cc                _ZN6eradio5audio21CAudioHwNotConfiguredD2Ev
+                0x00000000004043cc                _ZN6eradio5audio21CAudioHwNotConfiguredD1Ev
+                0x00000000004043fe                _ZN6eradio5audio21CAudioHwNotConfiguredD0Ev
+ .text._ZN6eradio5audio13IAudioHwStateC2Ev
+                0x0000000000404424       0x15 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+                0x0000000000404424                _ZN6eradio5audio13IAudioHwStateC2Ev
+                0x0000000000404424                _ZN6eradio5audio13IAudioHwStateC1Ev
+ *fill*         0x0000000000404439        0x7 90909090
+ .text          0x0000000000404440       0x92 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                0x0000000000404440                __libc_csu_init
+                0x00000000004044d0                __libc_csu_fini
+ *fill*         0x00000000004044d2        0xe 90909090
+ .text          0x00000000004044e0       0x36 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o
+ *fill*         0x0000000000404516        0x2 90909090
+ .text          0x0000000000404518        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+ *(.gnu.warning)
+
+.fini           0x0000000000404518        0xe
+ *(.fini)
+ .fini          0x0000000000404518        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+                0x0000000000404518                _fini
+ .fini          0x000000000040451c        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o
+ .fini          0x0000000000404521        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+                0x0000000000404526                PROVIDE (__etext, .)
+                0x0000000000404526                PROVIDE (_etext, .)
+                0x0000000000404526                PROVIDE (etext, .)
+
+.rodata         0x0000000000404540      0x8c0
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x0000000000404540        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000404540                _IO_stdin_used
+ *fill*         0x0000000000404544       0x1c 00
+ .rodata._ZTVN6eradio5audio9CAudioOutE
+                0x0000000000404560       0x20 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+                0x0000000000404560                _ZTVN6eradio5audio9CAudioOutE
+ .rodata._ZTIN6eradio5audio9CAudioOutE
+                0x0000000000404580       0x10 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+                0x0000000000404580                _ZTIN6eradio5audio9CAudioOutE
+ .rodata._ZTSN6eradio5audio9CAudioOutE
+                0x0000000000404590       0x1a build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+                0x0000000000404590                _ZTSN6eradio5audio9CAudioOutE
+ .rodata        0x00000000004045aa       0x3f build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ *fill*         0x00000000004045e9       0x17 00
+ .rodata._ZTVN6eradio13CFileStrategyE
+                0x0000000000404600       0x40 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000404600                _ZTVN6eradio13CFileStrategyE
+ .rodata._ZTVN5boost12shared_arrayIjEE
+                0x0000000000404640       0x28 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000404640                _ZTVN5boost12shared_arrayIjEE
+ *fill*         0x0000000000404668       0x18 00
+ .rodata._ZTVN5boost11shared_baseIjEE
+                0x0000000000404680       0x28 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000404680                _ZTVN5boost11shared_baseIjEE
+ *fill*         0x00000000004046a8       0x18 00
+ .rodata._ZTVN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEEE
+                0x00000000004046c0       0x28 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x00000000004046c0                _ZTVN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEEE
+ *fill*         0x00000000004046e8       0x18 00
+ .rodata._ZTVN6eradio14IRadioStrategyE
+                0x0000000000404700       0x40 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000404700                _ZTVN6eradio14IRadioStrategyE
+ .rodata._ZTVN6eradio5audio13IAudioDecoderE
+                0x0000000000404740       0x28 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000404740                _ZTVN6eradio5audio13IAudioDecoderE
+ *fill*         0x0000000000404768        0x8 00
+ .rodata._ZTSN5boost12shared_arrayIjEE
+                0x0000000000404770       0x1a build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000404770                _ZTSN5boost12shared_arrayIjEE
+ *fill*         0x000000000040478a        0x6 00
+ .rodata._ZTIN5boost12shared_arrayIjEE
+                0x0000000000404790       0x18 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000404790                _ZTIN5boost12shared_arrayIjEE
+ *fill*         0x00000000004047a8        0x8 00
+ .rodata._ZTSN5boost11shared_baseIjEE
+                0x00000000004047b0       0x19 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x00000000004047b0                _ZTSN5boost11shared_baseIjEE
+ *fill*         0x00000000004047c9        0x7 00
+ .rodata._ZTIN5boost11shared_baseIjEE
+                0x00000000004047d0       0x10 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x00000000004047d0                _ZTIN5boost11shared_baseIjEE
+ .rodata._ZTSN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEEE
+                0x00000000004047e0       0x33 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x00000000004047e0                _ZTSN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEEE
+ *fill*         0x0000000000404813        0xd 00
+ .rodata._ZTIN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEEE
+                0x0000000000404820       0x18 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000404820                _ZTIN6eradio5audio13CAudioDecoderINS0_11SOggDecoderEEE
+ *fill*         0x0000000000404838        0x8 00
+ .rodata._ZTIN6eradio13CFileStrategyE
+                0x0000000000404840       0x18 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000404840                _ZTIN6eradio13CFileStrategyE
+ *fill*         0x0000000000404858        0x8 00
+ .rodata._ZTSN6eradio13CFileStrategyE
+                0x0000000000404860       0x19 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000404860                _ZTSN6eradio13CFileStrategyE
+ *fill*         0x0000000000404879        0x7 00
+ .rodata._ZTSN6eradio14IRadioStrategyE
+                0x0000000000404880       0x1a build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x0000000000404880                _ZTSN6eradio14IRadioStrategyE
+ *fill*         0x000000000040489a        0x6 00
+ .rodata._ZTIN6eradio14IRadioStrategyE
+                0x00000000004048a0       0x10 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x00000000004048a0                _ZTIN6eradio14IRadioStrategyE
+ .rodata._ZTSN6eradio5audio13IAudioDecoderE
+                0x00000000004048b0       0x1f build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x00000000004048b0                _ZTSN6eradio5audio13IAudioDecoderE
+ *fill*         0x00000000004048cf        0x1 00
+ .rodata._ZTIN6eradio5audio13IAudioDecoderE
+                0x00000000004048d0       0x10 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                0x00000000004048d0                _ZTIN6eradio5audio13IAudioDecoderE
+ .rodata        0x00000000004048e0       0x86 build/Debug/GNU-Linux-x86/main.o
+ *fill*         0x0000000000404966       0x1a 00
+ .rodata._ZTVN6eradio16CFileInputFacadeE
+                0x0000000000404980       0x30 build/Debug/GNU-Linux-x86/main.o
+                0x0000000000404980                _ZTVN6eradio16CFileInputFacadeE
+ .rodata._ZTSN6eradio16CFileInputFacadeE
+                0x00000000004049b0       0x1c build/Debug/GNU-Linux-x86/main.o
+                0x00000000004049b0                _ZTSN6eradio16CFileInputFacadeE
+ *fill*         0x00000000004049cc        0x4 00
+ .rodata._ZTIN6eradio16CFileInputFacadeE
+                0x00000000004049d0       0x10 build/Debug/GNU-Linux-x86/main.o
+                0x00000000004049d0                _ZTIN6eradio16CFileInputFacadeE
+ .rodata._ZTVN6eradio18CShoutcastStrategyE
+                0x00000000004049e0       0x40 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+                0x00000000004049e0                _ZTVN6eradio18CShoutcastStrategyE
+ .rodata._ZTIN6eradio18CShoutcastStrategyE
+                0x0000000000404a20       0x18 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+                0x0000000000404a20                _ZTIN6eradio18CShoutcastStrategyE
+ *fill*         0x0000000000404a38        0x8 00
+ .rodata._ZTSN6eradio18CShoutcastStrategyE
+                0x0000000000404a40       0x1e build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+                0x0000000000404a40                _ZTSN6eradio18CShoutcastStrategyE
+ .rodata        0x0000000000404a5e        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ *fill*         0x0000000000404a66       0x1a 00
+ .rodata._ZTVN6eradio11CHttpClientE
+                0x0000000000404a80       0x28 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+                0x0000000000404a80                _ZTVN6eradio11CHttpClientE
+ *fill*         0x0000000000404aa8        0x8 00
+ .rodata._ZTIN6eradio11CHttpClientE
+                0x0000000000404ab0       0x18 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+                0x0000000000404ab0                _ZTIN6eradio11CHttpClientE
+ *fill*         0x0000000000404ac8        0x8 00
+ .rodata._ZTSN6eradio11CHttpClientE
+                0x0000000000404ad0       0x17 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+                0x0000000000404ad0                _ZTSN6eradio11CHttpClientE
+ *fill*         0x0000000000404ae7        0x1 00
+ .rodata        0x0000000000404ae8        0x4 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+ *fill*         0x0000000000404aec       0x14 00
+ .rodata._ZTVN6eradio5audio8CAudioHwE
+                0x0000000000404b00       0x20 build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+                0x0000000000404b00                _ZTVN6eradio5audio8CAudioHwE
+ .rodata._ZTIN6eradio5audio8CAudioHwE
+                0x0000000000404b20       0x10 build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+                0x0000000000404b20                _ZTIN6eradio5audio8CAudioHwE
+ .rodata._ZTSN6eradio5audio8CAudioHwE
+                0x0000000000404b30       0x19 build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+                0x0000000000404b30                _ZTSN6eradio5audio8CAudioHwE
+ *fill*         0x0000000000404b49       0x17 00
+ .rodata._ZTVN6eradio13CDataReceiverE
+                0x0000000000404b60       0x28 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+                0x0000000000404b60                _ZTVN6eradio13CDataReceiverE
+ *fill*         0x0000000000404b88        0x8 00
+ .rodata._ZTIN6eradio13CDataReceiverE
+                0x0000000000404b90       0x18 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+                0x0000000000404b90                _ZTIN6eradio13CDataReceiverE
+ *fill*         0x0000000000404ba8        0x8 00
+ .rodata._ZTSN6eradio13CDataReceiverE
+                0x0000000000404bb0       0x19 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+                0x0000000000404bb0                _ZTSN6eradio13CDataReceiverE
+ *fill*         0x0000000000404bc9       0x17 00
+ .rodata._ZTVN6eradio3tcp10CTcpClientE
+                0x0000000000404be0       0x28 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+                0x0000000000404be0                _ZTVN6eradio3tcp10CTcpClientE
+ *fill*         0x0000000000404c08        0x8 00
+ .rodata._ZTIN6eradio3tcp10CTcpClientE
+                0x0000000000404c10       0x10 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+                0x0000000000404c10                _ZTIN6eradio3tcp10CTcpClientE
+ .rodata._ZTSN6eradio3tcp10CTcpClientE
+                0x0000000000404c20       0x1a build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+                0x0000000000404c20                _ZTSN6eradio3tcp10CTcpClientE
+ .rodata        0x0000000000404c3a       0x1b build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+ *fill*         0x0000000000404c55        0xb 00
+ .rodata._ZTVN6eradio13COggLibFacadeE
+                0x0000000000404c60       0x68 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+                0x0000000000404c60                _ZTVN6eradio13COggLibFacadeE
+ *fill*         0x0000000000404cc8        0x8 00
+ .rodata._ZTIN6eradio13COggLibFacadeE
+                0x0000000000404cd0       0x10 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+                0x0000000000404cd0                _ZTIN6eradio13COggLibFacadeE
+ .rodata._ZTSN6eradio13COggLibFacadeE
+                0x0000000000404ce0       0x19 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+                0x0000000000404ce0                _ZTSN6eradio13COggLibFacadeE
+ *fill*         0x0000000000404cf9        0x7 00
+ .rodata._ZTVN6eradio5audio21CAudioHwNotConfiguredE
+                0x0000000000404d00       0x38 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+                0x0000000000404d00                _ZTVN6eradio5audio21CAudioHwNotConfiguredE
+ *fill*         0x0000000000404d38        0x8 00
+ .rodata._ZTVN6eradio5audio13IAudioHwStateE
+                0x0000000000404d40       0x28 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+                0x0000000000404d40                _ZTVN6eradio5audio13IAudioHwStateE
+ *fill*         0x0000000000404d68        0x8 00
+ .rodata._ZTIN6eradio5audio21CAudioHwNotConfiguredE
+                0x0000000000404d70       0x18 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+                0x0000000000404d70                _ZTIN6eradio5audio21CAudioHwNotConfiguredE
+ *fill*         0x0000000000404d88       0x18 00
+ .rodata._ZTSN6eradio5audio21CAudioHwNotConfiguredE
+                0x0000000000404da0       0x27 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+                0x0000000000404da0                _ZTSN6eradio5audio21CAudioHwNotConfiguredE
+ *fill*         0x0000000000404dc7        0x9 00
+ .rodata._ZTSN6eradio5audio13IAudioHwStateE
+                0x0000000000404dd0       0x1f build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+                0x0000000000404dd0                _ZTSN6eradio5audio13IAudioHwStateE
+ *fill*         0x0000000000404def        0x1 00
+ .rodata._ZTIN6eradio5audio13IAudioHwStateE
+                0x0000000000404df0       0x10 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+                0x0000000000404df0                _ZTIN6eradio5audio13IAudioHwStateE
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000404e00      0x604
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000404e00      0x604 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+
+.eh_frame       0x0000000000405408     0x18b4
+ *(.eh_frame)
+ .eh_frame      0x0000000000405408       0x40 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .eh_frame      0x0000000000405448      0x1c8 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+                                        0x1e0 (size before relaxing)
+ .eh_frame      0x0000000000405610      0x5e0 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                                        0x638 (size before relaxing)
+ .eh_frame      0x0000000000405bf0      0x108 build/Debug/GNU-Linux-x86/main.o
+                                        0x140 (size before relaxing)
+ .eh_frame      0x0000000000405cf8       0xa0 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+                                        0x1e0 (size before relaxing)
+ .eh_frame      0x0000000000405d98      0x938 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                                        0x960 (size before relaxing)
+ .eh_frame      0x00000000004066d0       0x68 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+                                         0xa0 (size before relaxing)
+ .eh_frame      0x0000000000406738       0x70 build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+                                         0xa8 (size before relaxing)
+ .eh_frame      0x00000000004067a8       0xa8 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+                                        0x120 (size before relaxing)
+ .eh_frame      0x0000000000406850       0x80 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+                                         0x98 (size before relaxing)
+ .eh_frame      0x00000000004068d0      0x128 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+                                        0x140 (size before relaxing)
+ .eh_frame      0x00000000004069f8      0x1a0 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+                                        0x1b8 (size before relaxing)
+ .eh_frame      0x0000000000406b98       0xe0 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+                                         0xf8 (size before relaxing)
+ .eh_frame      0x0000000000406c78       0x40 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000406cb8        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o
+
+.gcc_except_table
+                0x0000000000406cbc      0x135
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table
+                0x0000000000406cbc       0x10 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .gcc_except_table
+                0x0000000000406ccc       0x81 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .gcc_except_table
+                0x0000000000406d4d       0x39 build/Debug/GNU-Linux-x86/main.o
+ .gcc_except_table
+                0x0000000000406d86       0x10 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ *fill*         0x0000000000406d96        0x2 00
+ .gcc_except_table
+                0x0000000000406d98       0x2c build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .gcc_except_table
+                0x0000000000406dc4       0x10 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+ .gcc_except_table
+                0x0000000000406dd4       0x10 build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+ .gcc_except_table
+                0x0000000000406de4        0xd build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000406df1                . = (ALIGN (0x200000) - ((0x200000 - .) & 0x1fffff))
+                0x0000000000607da1                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000607da1        0x0
+                0x0000000000607da1                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x0000000000607da1                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0000000000607da8       0x30
+                0x0000000000607da8                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .ctors         0x0000000000607da8        0x8 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .ctors         0x0000000000607db0        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .ctors         0x0000000000607db8        0x8 build/Debug/GNU-Linux-x86/main.o
+ .ctors         0x0000000000607dc0        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .ctors         0x0000000000607dc8        0x8 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .ctors         0x0000000000607dd0        0x8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+                0x0000000000607dd8                PROVIDE (__init_array_end, .)
+
+.fini_array     0x0000000000607dd8        0x0
+                0x0000000000607dd8                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                0x0000000000607dd8                PROVIDE (__fini_array_end, .)
+
+.ctors          0x0000000000607dd8       0x10
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000607dd8        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000607de0        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o
+
+.dtors          0x0000000000607de8       0x10
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000607de8        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000000000607df0        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o
+                0x0000000000607df0                __DTOR_END__
+
+.jcr            0x0000000000607df8        0x8
+ *(.jcr)
+ .jcr           0x0000000000607df8        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o
+ .jcr           0x0000000000607df8        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000607e00      0x1e0
+ *(.dynamic)
+ .dynamic       0x0000000000607e00      0x1e0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000607e00                _DYNAMIC
+
+.got            0x0000000000607fe0        0x8
+ *(.got)
+ .got           0x0000000000607fe0        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ *(.igot)
+                0x0000000000607fe8                . = DATA_SEGMENT_RELRO_END (., 0x18)
+
+.got.plt        0x0000000000607fe8      0x170
+ *(.got.plt)
+ .got.plt       0x0000000000607fe8      0x170 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000607fe8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+
+.data           0x0000000000608158       0x10
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000608158        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000608158                data_start
+                0x0000000000608158                __data_start
+ .data          0x000000000060815c        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ *fill*         0x000000000060815c        0x4 00
+ .data          0x0000000000608160        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o
+                0x0000000000608160                __dso_handle
+ .data          0x0000000000608168        0x0 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .data          0x0000000000608168        0x0 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .data          0x0000000000608168        0x0 build/Debug/GNU-Linux-x86/main.o
+ .data          0x0000000000608168        0x0 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .data          0x0000000000608168        0x0 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .data          0x0000000000608168        0x0 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+ .data          0x0000000000608168        0x0 build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+ .data          0x0000000000608168        0x0 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .data          0x0000000000608168        0x0 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+ .data          0x0000000000608168        0x0 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+ .data          0x0000000000608168        0x0 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+ .data          0x0000000000608168        0x0 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+ .data          0x0000000000608168        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .data          0x0000000000608168        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o
+ .data          0x0000000000608168        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+
+.data1
+ *(.data1)
+                0x0000000000608168                _edata = .
+                0x0000000000608168                PROVIDE (edata, .)
+                0x0000000000608168                __bss_start = .
+
+.bss            0x0000000000608180      0x238
+ *(.dynbss)
+ .dynbss        0x0000000000608180      0x1d8 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000608180                _ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
+                0x00000000006081e0                _ZSt4cout@@GLIBCXX_3.4
+                0x0000000000608300                _ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000608358        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o
+ .bss           0x0000000000608358        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000608358       0x10 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o
+ .bss           0x0000000000608368        0x1 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ *fill*         0x0000000000608369        0x3 00
+ .bss           0x000000000060836c        0x1 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ *fill*         0x000000000060836d        0x3 00
+ .bss           0x0000000000608370        0x1 build/Debug/GNU-Linux-x86/main.o
+ *fill*         0x0000000000608371        0x3 00
+ .bss           0x0000000000608374        0x1 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ *fill*         0x0000000000608375        0xb 00
+ .bss           0x0000000000608380       0x30 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                0x0000000000608380                _ZN6eradio3tcp10CTcpServer9m_clientsE
+ .bss           0x00000000006083b0        0x0 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+ .bss           0x00000000006083b0        0x0 build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+ .bss           0x00000000006083b0        0x0 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .bss           0x00000000006083b0        0x0 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+ .bss           0x00000000006083b0        0x1 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+ *fill*         0x00000000006083b1        0x3 00
+ .bss           0x00000000006083b4        0x0 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+ .bss           0x00000000006083b4        0x0 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+ .bss           0x00000000006083b4        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .bss           0x00000000006083b4        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o
+ .bss           0x00000000006083b4        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+ *(COMMON)
+                0x00000000006083b8                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x00000000006083b4        0x4 00
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x00000000006083b8                . = ALIGN (0x8)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000a083b8        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000a083b8                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000a083b8                . = ALIGN (0x8)
+                0x0000000000a083b8                _end = .
+                0x0000000000a083b8                PROVIDE (end, .)
+                0x0000000000a083b8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2a
+ *(.comment)
+ .comment       0x0000000000000000       0x2a /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o
+                                         0x2b (size before relaxing)
+ .comment       0x0000000000000000       0x2b build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .comment       0x0000000000000000       0x2b build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .comment       0x0000000000000000       0x2b build/Debug/GNU-Linux-x86/main.o
+ .comment       0x0000000000000000       0x2b build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .comment       0x0000000000000000       0x2b build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .comment       0x0000000000000000       0x2b build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+ .comment       0x0000000000000000       0x2b build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+ .comment       0x0000000000000000       0x2b build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .comment       0x0000000000000000       0x2b build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+ .comment       0x0000000000000000       0x2b build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+ .comment       0x0000000000000000       0x2b build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+ .comment       0x0000000000000000       0x2b build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+ .comment       0x0000000000000000       0x2b /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0xa60
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0xa0 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .debug_aranges
+                0x00000000000000a0      0x290 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .debug_aranges
+                0x0000000000000330       0x80 build/Debug/GNU-Linux-x86/main.o
+ .debug_aranges
+                0x00000000000003b0       0xb0 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .debug_aranges
+                0x0000000000000460      0x460 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .debug_aranges
+                0x00000000000008c0       0x30 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+ .debug_aranges
+                0x00000000000008f0       0x30 build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+ .debug_aranges
+                0x0000000000000920       0x60 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .debug_aranges
+                0x0000000000000980       0x30 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+ .debug_aranges
+                0x00000000000009b0       0x40 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+ .debug_aranges
+                0x00000000000009f0       0x30 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+ .debug_aranges
+                0x0000000000000a20       0x40 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x11d59
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x215f build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .debug_info    0x000000000000215f     0x3830 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .debug_info    0x000000000000598f     0x2a0e build/Debug/GNU-Linux-x86/main.o
+ .debug_info    0x000000000000839d     0x20ab build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .debug_info    0x000000000000a448     0x3815 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .debug_info    0x000000000000dc5d      0x397 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+ .debug_info    0x000000000000dff4      0x24c build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+ .debug_info    0x000000000000e240      0xc2d build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .debug_info    0x000000000000ee6d      0x309 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+ .debug_info    0x000000000000f176     0x1ee8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+ .debug_info    0x000000000001105e      0x8ed build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+ .debug_info    0x000000000001194b      0x40e build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+
+.debug_abbrev   0x0000000000000000     0x2d1d
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x4fa build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .debug_abbrev  0x00000000000004fa      0x64c build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .debug_abbrev  0x0000000000000b46      0x5e9 build/Debug/GNU-Linux-x86/main.o
+ .debug_abbrev  0x000000000000112f      0x50b build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .debug_abbrev  0x000000000000163a      0x53b build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .debug_abbrev  0x0000000000001b75      0x1d5 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+ .debug_abbrev  0x0000000000001d4a      0x14e build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+ .debug_abbrev  0x0000000000001e98      0x3c0 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .debug_abbrev  0x0000000000002258      0x1da build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+ .debug_abbrev  0x0000000000002432      0x52b build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+ .debug_abbrev  0x000000000000295d      0x1f8 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+ .debug_abbrev  0x0000000000002b55      0x1c8 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+
+.debug_line     0x0000000000000000     0x29a5
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x3f9 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .debug_line    0x00000000000003f9      0x863 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .debug_line    0x0000000000000c5c      0x470 build/Debug/GNU-Linux-x86/main.o
+ .debug_line    0x00000000000010cc      0x449 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .debug_line    0x0000000000001515      0x923 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .debug_line    0x0000000000001e38      0x19b build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+ .debug_line    0x0000000000001fd3       0xa3 build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+ .debug_line    0x0000000000002076      0x2ee build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .debug_line    0x0000000000002364       0x9c build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+ .debug_line    0x0000000000002400      0x3af build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+ .debug_line    0x00000000000027af      0x115 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+ .debug_line    0x00000000000028c4       0xe1 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x70ea
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x1083 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+                                       0x1253 (size before relaxing)
+ .debug_str     0x0000000000001083      0xcde build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+                                       0x1b8a (size before relaxing)
+ .debug_str     0x0000000000001d61      0x260 build/Debug/GNU-Linux-x86/main.o
+                                       0x1772 (size before relaxing)
+ .debug_str     0x0000000000001fc1       0x95 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+                                       0x1152 (size before relaxing)
+ .debug_str     0x0000000000002056     0x488c build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+                                       0x4d94 (size before relaxing)
+ .debug_str     0x00000000000068e2       0x57 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+                                        0x325 (size before relaxing)
+ .debug_str     0x0000000000006939       0xc4 build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+                                        0x14b (size before relaxing)
+ .debug_str     0x00000000000069fd       0x82 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+                                        0x65e (size before relaxing)
+ .debug_str     0x0000000000006a7f       0x94 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+                                        0x154 (size before relaxing)
+ .debug_str     0x0000000000006b13       0xbb build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+                                       0x10e1 (size before relaxing)
+ .debug_str     0x0000000000006bce      0x3ad build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+                                        0x539 (size before relaxing)
+ .debug_str     0x0000000000006f7b      0x16f build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+                                        0x225 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x4adc
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x4e0 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .debug_loc     0x00000000000004e0     0x11a0 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .debug_loc     0x0000000000001680      0x300 build/Debug/GNU-Linux-x86/main.o
+ .debug_loc     0x0000000000001980      0x4e0 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .debug_loc     0x0000000000001e60     0x1b28 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .debug_loc     0x0000000000003988      0x120 build/Debug/GNU-Linux-x86/Http/src/CHttpClient.o
+ .debug_loc     0x0000000000003aa8      0x134 build/Debug/GNU-Linux-x86/Audio/src/CAudioHw.o
+ .debug_loc     0x0000000000003bdc      0x2a0 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .debug_loc     0x0000000000003e7c      0x180 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpClient.o
+ .debug_loc     0x0000000000003ffc      0x360 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+ .debug_loc     0x000000000000435c      0x4e0 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggLibFacade.o
+ .debug_loc     0x000000000000483c      0x2a0 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x9b0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x90 build/Debug/GNU-Linux-x86/Audio/src/CAudioOut.o
+ .debug_ranges  0x0000000000000090      0x2b0 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/CFileStrategy.o
+ .debug_ranges  0x0000000000000340       0xa0 build/Debug/GNU-Linux-x86/main.o
+ .debug_ranges  0x00000000000003e0       0xa0 build/Debug/GNU-Linux-x86/RadioProtocols/Shoutcast/src/CShoutcastStrategy.o
+ .debug_ranges  0x0000000000000480      0x480 build/Debug/GNU-Linux-x86/TcpIp/src/CTcpServer.o
+ .debug_ranges  0x0000000000000900       0x50 build/Debug/GNU-Linux-x86/DataReceiver/src/CDataReceiver.o
+ .debug_ranges  0x0000000000000950       0x30 build/Debug/GNU-Linux-x86/RadioProtocols/File/src/COggContainer.o
+ .debug_ranges  0x0000000000000980       0x30 build/Debug/GNU-Linux-x86/Audio/src/CAudioHwNotConfigured.o
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(dist/Debug/GNU-Linux-x86/eradio elf64-x86-64)
